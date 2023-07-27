@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladakh Mountain Tour & Travels</title>
+  <!-- header css and script starts -->
+  <link href="/resources/images/common/icons/icon-144x144.png" rel="apple-touch-icon" />
+  <link href="/resources/images/common/icons/icon-128x128.png" rel="icon" sizes="128x128" />
+  <!-- header css and script starts -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/resources/css/animate.min.css">
+  <link rel="stylesheet" href="/resources/css/aos.css">
+  <!-- FontAwsome CSS -->
+  <link rel="stylesheet" href="/resources/css/fontawesome4.css">
+  <link rel="stylesheet" href="/resources/css/fontawesome.css">
+
+  <!-- Custom styles for this template -->
+  <link href="/resources/css/style.css" rel="stylesheet">
+  <link href="/resources/css/media.css" rel="stylesheet">
+  <!-- header css and script ends -->
+</head>
+
+<body>
+  <!-- Header Starts -->
+  <header>
+    <div class="container">
+      <div class="logo-bar">
+        <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img src="/resources/images/common/ladakh-logo.png"
+            alt="Ladakh Mountain Tour & Travels" title="Ladakh Mountain Tour & Travels"></a>
+        <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
+          <a href="tel:919906977774" data-aos="fade-right" data-aos-delay="100">+91 99069 77774</a>
+          <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100">+91 94199 83141</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header Ends -->
+  <section class="content" data-aos="fade-right" data-aos-delay="100">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col thank-you-block">
+          <p data-aos="fade-right" data-aos-delay="100">Thank you for choosing Ladakh Mountain Tour & Travels for your travel requirements.</p>
+          <p data-aos="fade-right" data-aos-delay="100">Our Leh - Ladakh expert will get in touch with you shortly.</p>
+          <div class="social-media">
+            <span>Follow us :</span>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT" title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
+              </li>
+              <!-- <li>
+                <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin" target="_blank"><i class="fc-linkedin"></i></a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-sec">
+    <div class="container">
+      <div class="enquire-more" data-aos="fade-right" data-aos-delay="100">
+        <div class="condition-txt">*conditions apply</div>
+        <b>To know more, get in touch with our Leh - Ladakh experts</b>
+        <h3>Call : <span>+91 99069 77774, +91 94199 83141</span></h3>
+        <p class="light-text" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">Our experts will respond you on all your queries.</p>
+      </div>
+
+      <div class="footer-link">
+        <div class="visit-link">
+          Visit :
+          <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
+          <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
+          <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a>
+        </div>
+        <div class="social-media">
+          <span>Follow us :</span>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT" title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
+            </li>
+            <!-- <li>
+              <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin" target="_blank"><i class="fc-linkedin"></i></a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="copyright">
+        © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+  <!-- footer js css and script starts -->
+  <div class="lds-ring">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <script src="/resources/js/jquery.min.js"></script>
+  <script src="/resources/js/jquery.easing.min.js"></script>
+  <script src="/resources/js/bootstrap.min.js"></script>
+  <script src="/resources/js/aos.js"></script>
+  <script src="/resources/js/main.js"></script>
+  <!-- footer js css and script ends -->
+  <script>
+
+    $(document).ready(function () {
+      $(window).on('load', function () {
+        if ($('.lds-ring').length) {
+          $('.lds-ring').delay(100).fadeOut('slow', function () {
+            $(this).remove();
+          });
+        }
+      });
+      // Back to top button
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.back-to-top').fadeIn('slow');
+          $('.fixed-buttons').css("bottom", 45);
+        } else {
+          $('.back-to-top').fadeOut('slow');
+          $('.fixed-buttons').css("bottom", 0);
+        }
+      });
+      $(".navbar-toggler").click(function () {
+        $(this).toggleClass("on");
+        $("#menu").slideToggle();
+      });
+
+      $('.back-to-top').click(function () {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 1500, 'easeInOutExpo');
+        return false;
+      });
+    });
+
+  </script>
+</body>
+
+</html>
