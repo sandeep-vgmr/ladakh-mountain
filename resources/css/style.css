@@ -275,39 +275,46 @@ form.form{position:relative;}
 
 /* kashmir page  */
 .kashmir-page .banner figure figcaption h1{    color: #FFF;font-family: Poppins;font-size: 60px;font-style: normal;font-weight: 700;line-height: 74.612px;letter-spacing: 1.8px;}
-.kashmir-page .banner figure figcaption p{color: #FFF;font-family: Poppins;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.4px;}
+.kashmir-page .banner figure figcaption p{color: #FFF;font-family: Poppins;font-size: 20px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.4px;}
 .kashmir-page .banner figure figcaption ul{display: flex;align-items: center;padding: 0;margin: 0;    height: 62.055px;}
 .kashmir-page .banner figure figcaption ul li:nth-child(2){position: relative; flex-direction: row; border-right: 1px solid #fff;border-left: 1px solid #fff;padding: 0 30px;margin: 0 30px;}
-.kashmir-page .banner figure figcaption ul li:nth-child(2) span{position: absolute; top: 0;}
+.kashmir-page .banner figure figcaption ul li:nth-child(2) span{position: absolute; top: 0;font-weight: bold;}
 .kashmir-page .banner figure figcaption ul li{list-style: none;height: 100% ;display: flex;align-items: center;flex-direction: column;justify-content: space-between;}
-.kashmir-page .banner figure figcaption ul li img {width: 37.555px;height: 37.555px;    object-fit: contain; margin: 0 10px; margin-top: 30px;}
-.kashmir-page .banner figure figcaption ul li h2{ margin: 0; color: #FFF;font-family: Poppins;font-size: 25px;font-style: normal;font-weight: 700;letter-spacing: 0.5px;margin-top: 23px;}
-.kashmir-page .banner figure figcaption ul li span{color: #FFF;font-family: Poppins;font-size: 15px;font-style: normal;font-weight: 700;letter-spacing: 0.3px;text-transform: uppercase;}
+.kashmir-page .banner figure figcaption ul li img {width: 37.555px;height: 37.555px;    object-fit: contain; margin: 0 10px; margin-top: 25px;}
+.kashmir-page .banner figure figcaption ul li h2{color: #FFF;margin: 0;font-family: 'Poppins';font-size: 35px;font-style: normal;font-weight: 500;letter-spacing: 0.7px;text-transform: uppercase;margin-top: 14px;}
+.kashmir-page .banner figure figcaption ul li:first-child h2{font-size: 25px;    margin-top: 18px;}
+.kashmir-page .banner figure figcaption ul li span{color: #FFF;font-family: Poppins;font-size: 15px;font-style: normal;font-weight: 400;letter-spacing: 0.3px;text-transform: initial;}
+.kashmir-page .banner figure figcaption ul li span b {    font-weight: bold;text-transform: uppercase;}
 .kashmir-page .banner figure::after, .kashmir-page .banner::after,.kashmir-page .banner figure::before{background: none;}
-.kashmir-page .banner{height: 1024px;}
+.kashmir-page .banner{height: 650px;}
 .kashmir-page .banner figcaption{font-size: inherit;}
-.swiper {width: 100%;overflow: visible;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
-.swiper-slide {background-position: center;background-size: cover;width: 300px;height: 300px;}
-.swiper-slide::after {position: absolute;content: "";inset: 0;width: 75%;aspect-ratio: 1/1;background: linear-gradient(to bottom right, #b8b8b88f, #ffffff5e);}
-.swiper-slide-active::after {background: none;}
-.swiper-slide > div {text-align: center;display: none;opacity: 0;}
-.swiper-slide-active div {display: block;opacity: 1;}
-.swiper-slide h2 {font-size: 1.2rem;font-family: "Libre Baskerville", serif;position: relative;}
-.swiper-slide h2::after {position: absolute;content: "";bottom: -20px;left: 50%;transform: translateX(-50%);height: 2px;background: linear-gradient(#e66465, #9198e5);}
-@keyframes line {0% {width: 0;}100% {width: 100%;}}
-.swiper-slide-active h2::after {animation: line 0.5s linear forwards;}
-.swiper-slide img {display: block; width: 70%;aspect-ratio: 1/1;}
 .kashmir-page .content .row h3{  color: #000;font-family: Poppins;font-size: 20px;font-style: normal;font-weight: 500;line-height: 25px;letter-spacing: 0.6px;}
-.kashmir-page .content .row .itinerary-cards{ display: flex;margin-bottom: 40px;}
+.kashmir-page .content .row .itinerary-cards{padding-left: 0; display: flex;margin-bottom: 40px;}
 .kashmir-page .content .row .img-wrapper{margin-right: 30px;}
-.kashmir-page .content .row .itinerary-content h6{ color: #000;font-family: Poppins;font-size: 16px;font-style: normal;font-weight: 500;line-height: 25px;letter-spacing: 0.48px;}
+.kashmir-page .content .row .itinerary-content h6{ color: #000;font-family: 'Poppins';font-size: 16px;font-style: normal;font-weight: 500;line-height: 25px;letter-spacing: 0.48px;}
+.kashmir-page .content .row .itinerary-content p{    color: #000;font-family: 'Poppins';font-size: 14px;font-style: normal;font-weight: 400;line-height: 23px;}
 .kashmir-page .content .row .itinerary-content span{ color: #A4461D;}
-.kashmir-page .content h5{color: #000;font-family: Poppins;font-size: 15px;font-style: normal;font-weight: 500;line-height: 25px;letter-spacing: 0.45px;margin-bottom: 2rem;}
+.kashmir-page .content h5{padding: 20px 90px;color: #000;font-family: Poppins;font-size: 15px;font-style: normal;font-weight: 500;line-height: 25px;letter-spacing: 0.45px;margin-bottom: 2rem;}
 .kashmir-page .photo-grid{ height: 365px;display: -ms-flexbox; /* IE10 */display: flex;-ms-flex-wrap: wrap; /* IE10 */flex-wrap: wrap;padding: 0 4px;}
 .kashmir-page .photo-grid .column{ -ms-flex: 25%; /* IE10 */flex: 25%;max-width: 25%;padding: 0 4px;}
 .kashmir-page .photo-grid .column img{margin-top: 8px;vertical-align: middle;width: 100%;}
-.kashmir-page .photo-grid .column{}
-
-@-moz-document url-prefix() {
-  .cust-select select, .cust-select select:focus{padding: 0 30px 0 11px;}
-}
+.kashmir-page .content .explore-travel h5{    color: #000;font-family: Poppins;font-size: 30px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.9px;text-align: center;margin-bottom: 0;padding-bottom: 20px;}
+.kashmir-page .footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 188px;position: absolute;bottom: 0;z-index: 1;left: -20px;}
+.kashmir-page .footer-sec::after{content: ''; background: url('/resources/images/kashmir-footer-layer.png') no-repeat;     background-size: 100% 100%;width: 100%;height: 188px;position: absolute;bottom: 95px;z-index: 1;}
+.kashmir-page .banner ~ .content{margin-top: -210px;padding-top: 40px; background-color: #FFF7EF;}
+.kashmir-page .banner figure img{object-fit: fill;}
+@-moz-document url-prefix() {.cust-select select, .cust-select select:focus{padding: 0 30px 0 11px;}}
+.kashmir-page .swiper-slider-warpper{     position: relative;top: -200px;    z-index: 1;}
+.kashmir-page .swiper-container{height: 512px;}
+.kashmir-page .swiper-slider-warpper .container{padding: 0;}
+.kashmir-page .swiper-slide {display: flex;align-items: center;justify-content: center;box-sizing: border-box;}
+.kashmir-page .swiper-slide .img-slide{width: 100%; height: 100%;}
+.kashmir-page .swiper-slide .img-slide img{height: 100%;border-radius: 10px;width: 100%;object-fit: fill;}
+.kashmir-page  form .form-group > label {    margin-bottom: 0;}
+.kashmir-page .cust-select::after{content: ''; background: url('/resources/images/common/icons/down-arror-icon.svg') no-repeat;border: none;background-position-x: 0px;background-position-y: -6px;width: 20px;height: 20px;}
+.kashmir-page .social-media ul li a img:hover{    transition: all 0.5s ease;opacity: 0.7;}
+.kashmir-page .copyright{margin-top: 10px;}
+.kashmir-page .enquire-more {    padding: 25px;}
+.kashmir-page .enquire-more b {color: #000;text-align: center;font-family: 'Poppins';font-size: 15px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.3px;}
+.kashmir-page .enquire-more .light-text{    margin-bottom: 0.5rem;}
+.kashmir-page .footer-sec{background: #FAF7F3;}
