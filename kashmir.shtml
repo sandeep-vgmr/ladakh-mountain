@@ -88,7 +88,10 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/slider-1.png" alt="slider-1" />
+                                <video width="320" height="240" controls>
+                                    <source src="/resources/images/kashmir-video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                  </video>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -412,12 +415,8 @@
                 <div class="explore-travel">
                     <h5>Explore Your Travel</h5>
                     <div class="row photo-grid col-xs-12 col-sm-2 col-md-12 col-lg-12">
-                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4">
-                            <video controls>
-                                <source src="/resources/images/kashmir-video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                              </video>
-                        </div>
+                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
+                                src="/resources/images/explore-traval-1.png"></div>
                         <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
                                 src="/resources/images/explore-traval-2.png"><img
                                 src="/resources/images/explore-traval-5.png"></div>
