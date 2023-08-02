@@ -43,6 +43,7 @@
       </div>
     </div>
   </header>
+
   <!-- Header Ends -->
   <section class="banner" data-aos="fade-right" data-aos-delay="100">
     <figure>
@@ -54,6 +55,7 @@
       </figcaption>
     </figure>
   </section>
+
   <section class="content">
     <div class="container">
       <div class="row">
@@ -91,8 +93,8 @@
                 <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>13,500 <span
                     class="star-mark">*</span></div>
                 <div class="price">
-                  <a href="#" data-toggle="modal" data-target="#detailItinerary1" class="btn btn-primary itinary"
-                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a>
+                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary1" class="btn btn-primary itinary"
+                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
                   <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
                     data-aos="fade-right" data-aos-delay="800">Enquire now</a>
                 </div>
@@ -125,8 +127,8 @@
                 <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>14,999 <span
                     class="star-mark">*</span></div>
                 <div class="price">
-                  <a href="#" data-toggle="modal" data-target="#detailItinerary2" class="btn btn-primary itinary"
-                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a>
+                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary2" class="btn btn-primary itinary"
+                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
                   <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
                     data-aos="fade-right" data-aos-delay="800">Enquire now</a>
                 </div>
@@ -159,8 +161,8 @@
                 <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>15,999 <span
                     class="star-mark">*</span></div>
                 <div class="price">
-                  <a href="#" data-toggle="modal" data-target="#detailItinerary3" class="btn btn-primary itinary"
-                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a>
+                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary3" class="btn btn-primary itinary"
+                    data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
                   <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
                     data-aos="fade-right" data-aos-delay="800">Enquire now</a>
                 </div>
@@ -168,7 +170,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-6">
+
+        <div class="col-lg-4 col-md-6 ">
           <div class="right" data-aos="fade-right" data-aos-delay="100">
             <h3 data-aos="fade-right" data-aos-delay="100">Enquire now on Ladakh trip packages.</h3>
             <form class="form">
@@ -236,9 +239,11 @@
             </form>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+
   <footer class="footer-sec">
     <div class="container">
       <div class="enquire-more">
@@ -289,6 +294,7 @@
       </div> -->
     </div>
   </footer>
+
   <!-- Modal -->
   <div class="modal fade thank-you" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
@@ -364,8 +370,6 @@
     </div>
   </div>
 
-
-
   <!-- Itinerary Modal -->
   <div class="modal fade common" id="detailItinerary1" tabindex="0" aria-labelledby="detailItinerary1Label"
     aria-hidden="true">
@@ -423,6 +427,7 @@
       </div>
     </div>
   </div>
+
   <div class="modal fade common" id="detailItinerary2" tabindex="0" aria-labelledby="detailItinerary2Label"
     aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -491,6 +496,7 @@
       </div>
     </div>
   </div>
+
   <div class="modal fade common" id="detailItinerary3" tabindex="0" aria-labelledby="detailItinerary3Label"
     aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">

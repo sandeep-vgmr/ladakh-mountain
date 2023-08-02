@@ -27,217 +27,322 @@
 </head>
 
 <body class="kashmir-page">
-    <!-- Header Starts -->
-    <header>
-        <div class="container">
-            <div class="logo-bar">
-                <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img
-                        src="/resources/images/common/ladakh-logo.png" alt="Ladakh Mountain Tour & Travels"
-                        title="Ladakh Mountain Tour & Travels"></a>
-                <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
-                    <div class="callBlock">
-                        <a href="tel:916006943256" data-aos="fade-right" data-aos-delay="100"><span>+91 99069
-                                77774</span></a>
-                        <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100"><span>+91 94199
-                                83141</span></a>
-                    </div>
-                    <div class="emailBlock">
-                        <a href="mailto:info@ladakhmountaintours.com"><span>info@ladakhmountaintours.com</span></a>
+    <div class="main-wrapper">
+        <!-- Header Starts -->
+        <header>
+            <div class="container">
+                <div class="logo-bar">
+                    <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img
+                            src="/resources/images/common/ladakh-logo.png" alt="Ladakh Mountain Tour & Travels"
+                            title="Ladakh Mountain Tour & Travels"></a>
+                    <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
+                        <div class="callBlock">
+                            <a href="tel:916006943256" data-aos="fade-right" data-aos-delay="100"><span>+91 99069
+                                    77774</span></a>
+                            <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100"><span>+91 94199
+                                    83141</span></a>
+                        </div>
+                        <div class="emailBlock">
+                            <a href="mailto:info@ladakhmountaintours.com"><span>info@ladakhmountaintours.com</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Header Ends -->
-    <section class="banner" data-aos="fade-right" data-aos-delay="100">
-        <figure>
-            <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh" data-aos="fade-right"
-                data-aos-delay="100">
-            <figcaption>
-                <h1>Glimpse of Kashmir</h1>
-                <p>Srinagar, Gulmarg, Pahalgam, Tarsar Lake</p>
+        <!-- Header Ends -->
+        <section class="banner" data-aos="fade-right" data-aos-delay="100">
+            <figure>
+                <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh" data-aos="fade-right"
+                    data-aos-delay="100">
+                <figcaption>
+                    <h1>Glimpse of Kashmir</h1>
+                    <p>Srinagar, Gulmarg, Pahalgam, Tarsar Lake</p>
 
-                <ul>
-                    <li>
-                        <h2>5 Nights / 6 Days</h2>
-                    </li>
-                    <li>
-                        <span>Inclusions</span>
-                        <img src="/resources/images/common/icons/hotels-icon.svg" />
-                        <img src="/resources/images/common/icons/meals-icon.svg" />
-                        <img src="/resources/images/common/icons/cars-icon.svg" />
-                        <img src="/resources/images/common/icons/search-location.svg" />
-                    </li>
-                    <li>
-                        <span><b>Price</b> (per person)</span>
-                        <h2>₹ 35,000</h2>
-                    </li>
-                </ul>
-            </figcaption>
-        </figure>
-    </section>
+                    <ul>
+                        <li>
+                            <h2>5 Nights / 6 Days</h2>
+                        </li>
+                        <li>
+                            <span>Inclusions</span>
+                            <img src="/resources/images/common/icons/hotels-icon.svg" />
+                            <img src="/resources/images/common/icons/meals-icon.svg" />
+                            <img src="/resources/images/common/icons/cars-icon.svg" />
+                            <img src="/resources/images/common/icons/search-location.svg" />
+                        </li>
+                        <li>
+                            <span><b>Price</b> (per person)</span>
+                            <h2>₹ 35,000</h2>
+                        </li>
+                    </ul>
+                </figcaption>
+            </figure>
+        </section>
 
-    <section class="swiper-slider-warpper" data-aos="fade-right" data-aos-delay="100">
-        <div class="container">
-            <!-- Slider main container -->
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="img-slide">
-                            <img src="/resources/images/slider-1.png" alt="slider-1" />
+        <section class="swiper-slider-warpper" data-aos="fade-right" data-aos-delay="100">
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slider-1.png" alt="slider-1" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="img-slide">
-                            <img src="/resources/images/slider-2.png" alt="slider-1" />
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slider-2.png" alt="slider-1" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="img-slide">
-                            <img src="/resources/images/slider-3.png" alt="slider-1" />
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slider-3.png" alt="slider-1" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="img-slide">
-                            <img src="/resources/images/slider-4.png" alt="slider-1" />
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slider-4.png" alt="slider-1" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="img-slide">
-                            <img src="/resources/images/slider-5.png" alt="slider-1" />
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slider-5.png" alt="slider-1" />
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="content" data-aos="fade-right" data-aos-delay="100" v>
-        <div class="container">
-            <h5>Kashmir is the heaven on earth and known for its grand magnificence with high pinnacles and snow-clad
-                extents. For travellers, it is the place offering everything in just one place and doesn’t matter
-                whether you are a solo traveller or looking for leisure or family tour. There are lots of beautiful
-                things you can see here like as beautiful landscapes, flower valleys, peaceful lakes, and amazing
-                trekking trails and lots of more. Explore the beauty of Kashmir with the best tour operators; just call
-                us today to book your tour.</h5>
+        <section class="content">
+            <div class="container">
+                <h5>Kashmir is the heaven on earth and known for its grand magnificence with high pinnacles and
+                    snow-clad
+                    extents. For travellers, it is the place offering everything in just one place and doesn’t
+                    matter
+                    whether you are a solo traveller or looking for leisure or family tour. There are lots of
+                    beautiful
+                    things you can see here like as beautiful landscapes, flower valleys, peaceful lakes, and
+                    amazing
+                    trekking trails and lots of more. Explore the beauty of Kashmir with the best tour operators;
+                    just call
+                    us today to book your tour.</h5>
 
-            <div class="row">
-                <div class="col-lg-8 col-md-6">
-                    <h3 data-aos="fade-right" data-aos-delay="100">Glimpse of Kashmir Itinerary</h3>
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <h3 data-aos="fade-right" data-aos-delay="100">Glimpse of Kashmir Itinerary</h3>
 
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-1.jpg" />
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-1.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 01:</span> Arrival Srinagar airport (3-4 hrs)</h6>
+                                <p>On arrival at Srinagar airport. Our representative will meet you to pick you up
+                                    and
+                                    transfer to your hotel. Welcome to <b>Srinagar</b>, the Lake City. Being your
+                                    tour of
+                                    Glimpse
+                                    Of Kashmir. After rest leave for sightseeing tour of <b>Mughal Gardens</b>
+                                    visiting
+                                    <b>Cheshmashahi</b> (the royal spring ), Nishat (the garden of pleasure ),
+                                    Shalimar (the
+                                    abode
+                                    of love), <b>Pari Mahal</b>. Dinner & overnight in Hotel at Srinagar
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="itinerary-content">
-                            <h6><span>Day 01:</span> Arrival Srinagar airport (3-4 hrs)</h6>
-                            <p>On arrival at Srinagar airport. Our representative will meet you to pick you up and
-                                transfer to your hotel. Welcome to <b>Srinagar</b>, the Lake City. Being your tour of
-                                Glimpse
-                                Of Kashmir. After rest leave for sightseeing tour of <b>Mughal Gardens</b> visiting
-                                <b>Cheshmashahi</b> (the royal spring ), Nishat (the garden of pleasure ), Shalimar (the
-                                abode
-                                of love), <b>Pari Mahal</b>. Dinner & overnight in Hotel at Srinagar
-                            </p>
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-2.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 02:</span>Srinagar-Gulmarg-Srinagar (2 hrs one way)</h6>
+                                <p>After breakfast check out from Hotel & proceed to <b>Gulmarg</b>. On arrival in
+                                    Gulmarg
+                                    check-in
+                                    Hotel .Gulmarg is also known as <b>“Meadow Of Flowers”</b> & has a famous Golf
+                                    course
+                                    during
+                                    summer (which is one if the highest 18-holes golf course in the world) & Ski
+                                    Resort
+                                    during winter. Enjoy the breathtaking views of <b>snow clad mountains,
+                                        Gondola</b>
+                                    (cable car)
+                                    ride from Gulmarg to <b>Khilanmarg</b> (own cost) to have a real view in natural
+                                    beauty
+                                    of the
+                                    summer and full snow view in winter. You can have a <b>pony ride</b> in the open
+                                    fields
+                                    to
+                                    seven springs (own cost) and to a lake, which remains frozen until June. Dinner
+                                    &
+                                    overnight at Hotel In Srinagar.</p>
+                            </div>
+                        </div>
+
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-3.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 03:</span> Srinagar-Pahalgam</h6>
+                                <p>After breakfast check-out from the hotel & proceed to Pahalgam <b>”VILLAGE OF
+                                        SHEPHERDS“</b>
+                                    Pahalgam is known as the land of shepherds. The mountain town is located along
+                                    the bank
+                                    of River Lidder. Here you can visit many breath taking palace enroute visiting
+                                    the world
+                                    famous Saffron growing fields. <b>Pahalgam</b> is famous for indian film
+                                    industry, some
+                                    trekking routes & also base camp for Amarnath pilgrimage.Dinner & overnight in
+                                    hotel at
+                                    Pahalgam.</p>
+                            </div>
+                        </div>
+
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-4.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 04:</span> Pahalgam-Sightseeing</h6>
+                                <p>After breakfast full day to enjoy & explore the beauty of Pahalgam. One can go to
+                                    <b>chandanwari</b> Betabwari Aru (own cost) has a fine Meadows of Pictures que
+                                    scenery &
+                                    starting point of trekking of <b>(Liddarwat, Kolahoi Glacier, Tarsar Lake)</b>.
+                                    Dinner &
+                                    overnight at hotel in Pahalgam.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-5.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 05:</span>Pahalgam-Srinagar (02 hrs drive)</h6>
+                                <p>After breakfast check out from Pahalgam & proceed to <b>Srinagar</b>. It takes 02
+                                    hours
+                                    to reach
+                                    Srinagar, evening Shikara ride on <b>dal lake</b> for 01 hour to experience the
+                                    inner
+                                    parts of
+                                    Dal Lake. Dinner and night stay at <b>Houseboat</b>.</p>
+                            </div>
+                        </div>
+
+                        <div class="itinerary-cards col-lg-12 col-md-12">
+                            <div class="img-wrapper">
+                                <img src="/resources/images/day-6.jpg" />
+                            </div>
+
+                            <div class="itinerary-content">
+                                <h6><span>Day 06:</span>Departure to <b>Srinagar Airport</b> 30 mins drive</h6>
+                                <p>After breakfast check out from Houseboat & Proceed to Srinagar airport to board
+                                    the
+                                    flight for onward destination.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-2.jpg" />
-                        </div>
-
-                        <div class="itinerary-content">
-                            <h6><span>Day 02:</span>Srinagar-Gulmarg-Srinagar (2 hrs one way)</h6>
-                            <p>After breakfast check out from Hotel & proceed to <b>Gulmarg</b>. On arrival in Gulmarg
-                                check-in
-                                Hotel .Gulmarg is also known as <b>“Meadow Of Flowers”</b> & has a famous Golf course
-                                during
-                                summer (which is one if the highest 18-holes golf course in the world) & Ski Resort
-                                during winter. Enjoy the breathtaking views of <b>snow clad mountains, Gondola</b>
-                                (cable car)
-                                ride from Gulmarg to <b>Khilanmarg</b> (own cost) to have a real view in natural beauty
-                                of the
-                                summer and full snow view in winter. You can have a <b>pony ride</b> in the open fields
-                                to
-                                seven springs (own cost) and to a lake, which remains frozen until June. Dinner &
-                                overnight at Hotel In Srinagar.</p>
-                        </div>
-                    </div>
-
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-3.jpg" />
-                        </div>
-
-                        <div class="itinerary-content">
-                            <h6><span>Day 03:</span> Srinagar-Pahalgam</h6>
-                            <p>After breakfast check-out from the hotel & proceed to Pahalgam <b>”VILLAGE OF
-                                    SHEPHERDS“</b>
-                                Pahalgam is known as the land of shepherds. The mountain town is located along the bank
-                                of River Lidder. Here you can visit many breath taking palace enroute visiting the world
-                                famous Saffron growing fields. <b>Pahalgam</b> is famous for indian film industry, some
-                                trekking routes & also base camp for Amarnath pilgrimage.Dinner & overnight in hotel at
-                                Pahalgam.</p>
-                        </div>
-                    </div>
-
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-4.jpg" />
-                        </div>
-
-                        <div class="itinerary-content">
-                            <h6><span>Day 04:</span> Pahalgam-Sightseeing</h6>
-                            <p>After breakfast full day to enjoy & explore the beauty of Pahalgam. One can go to
-                                <b>chandanwari</b> Betabwari Aru (own cost) has a fine Meadows of Pictures que scenery &
-                                starting point of trekking of <b>(Liddarwat, Kolahoi Glacier, Tarsar Lake)</b>. Dinner &
-                                overnight at hotel in Pahalgam.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-5.jpg" />
-                        </div>
-
-                        <div class="itinerary-content">
-                            <h6><span>Day 05:</span>Pahalgam-Srinagar (02 hrs drive)</h6>
-                            <p>After breakfast check out from Pahalgam & proceed to <b>Srinagar</b>. It takes 02 hours
-                                to reach
-                                Srinagar, evening Shikara ride on <b>dal lake</b> for 01 hour to experience the inner
-                                parts of
-                                Dal Lake. Dinner and night stay at <b>Houseboat</b>.</p>
-                        </div>
-                    </div>
-
-                    <div class="itinerary-cards col-lg-12 col-md-6">
-                        <div class="img-wrapper">
-                            <img src="/resources/images/day-6.jpg" />
-                        </div>
-
-                        <div class="itinerary-content">
-                            <h6><span>Day 06:</span>Departure to <b>Srinagar Airport</b> 30 mins drive</h6>
-                            <p>After breakfast check out from Houseboat & Proceed to Srinagar airport to board the
-                                flight for onward destination.</p>
+                    <div class="col-lg-4 col-md-12 mobile-form">
+                        <div class="right">
+                            <h3 class="headingForm">Request A Call Back <img src="/resources/images/angle-up-solid.svg"
+                                    alt="down arrow" class="downArrow" /></h3>
+                            <form class="form">
+                                <div class="mandate-txt">*mandatory
+                                    fields</div>
+                                <div class="form-group">
+                                    <label for="Name">Name *</label>
+                                    <input type="text" id="Name" name="Name" class="form-control"
+                                        placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Id *</label>
+                                    <input type="text" id="email" name="email" class="form-control"
+                                        placeholder="Enter Email Id">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile">Mobile No. *</label>
+                                    <input type="text" id="mobile" name="mobile" class="form-control"
+                                        placeholder="Enter 10 Digit Mobile No.">
+                                </div>
+                                <div class="form-group">
+                                    <label for="arrivalMonth">Arrival Month *</label>
+                                    <div class="cust-select">
+                                        <select id="arrivalMonth">
+                                            <option>Select Arrival Month</option>
+                                            <option>February 2021</option>
+                                            <option>March 2021</option>
+                                            <option>April 2021</option>
+                                            <option>May 2021</option>
+                                            <option>June 2021</option>
+                                            <option>July 2021</option>
+                                            <option>August 2021</option>
+                                            <option>September 2021</option>
+                                            <option>October 2021</option>
+                                            <option>November 2021</option>
+                                            <option>December 2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="noofpax">No. Of Pax *</label>
+                                    <div class="cust-select">
+                                        <select id="noofpax">
+                                            <option>Select No. Of Pax</option>
+                                            <option>2</option>
+                                            <option>Between 3 to 5</option>
+                                            <option>Between 5 to 10</option>
+                                            <option>10 and more</option>
+                                            <option>20 and more</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="captcha">Captcha *</label>
+                                    <div class="row row-sm align-items-center">
+                                        <div class="col-auto">80 + 9 =</div>
+                                        <div class="col"><input type="text" id="captcha" name="captcha"
+                                                class="form-control" placeholder="Enter Your Answer"></div>
+                                    </div>
+                                </div>
+                                <div class="btn-block">
+                                    <a href="thank-you.shtml" class="btn btn-primary">Enquire Now</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="col-lg-4 col-md-6">
+        <!-- <section>
+                <div class="col-lg-4 col-md-12">
                     <div class="right" data-aos="fade-right" data-aos-delay="100">
                         <h3 data-aos="fade-right" data-aos-delay="100">Request A Call Back</h3>
                         <form class="form">
-                            <div class="mandate-txt" data-aos="fade-right" data-aos-delay="100">*mandatory fields</div>
+                            <div class="mandate-txt" data-aos="fade-right" data-aos-delay="100">*mandatory
+                                fields</div>
                             <div class="form-group" data-aos="fade-right" data-aos-delay="100">
                                 <label for="Name">Name *</label>
-                                <input type="text" id="Name" name="Name" class="form-control" placeholder="Enter Name">
+                                <input type="text" id="Name" name="Name" class="form-control"
+                                    placeholder="Enter Name">
                             </div>
                             <div class="form-group" data-aos="fade-right" data-aos-delay="100">
                                 <label for="email">Email Id *</label>
@@ -289,8 +394,8 @@
                                 <label for="captcha">Captcha *</label>
                                 <div class="row row-sm align-items-center">
                                     <div class="col-auto">80 + 9 =</div>
-                                    <div class="col"><input type="text" id="captcha" name="captcha" class="form-control"
-                                            placeholder="Enter Your Answer"></div>
+                                    <div class="col"><input type="text" id="captcha" name="captcha"
+                                            class="form-control" placeholder="Enter Your Answer"></div>
                                 </div>
                             </div>
                             <div class="btn-block" data-aos="fade-right" data-aos-delay="100">
@@ -299,76 +404,87 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </section> -->
 
-            <!-- Photo Grid -->
-            <div class="explore-travel">
-                <h5>Explore Your Travel</h5>
-                <div class="row photo-grid">
-                    <div class="column"><img src="/resources/images/explore-traval-1.png" style="width:100%"></div>
-                    <div class="column"><img src="/resources/images/explore-traval-2.png" style="width:100%"><img
-                            src="/resources/images/explore-traval-5.png" style="width:100%"></div>
-                    <div class="column"><img src="/resources/images/explore-traval-3.png" style="width:100%"><img
-                            src="/resources/images/explore-traval-6.png" style="width:100%"></div>
-                    <div class="column"> <img src="/resources/images/explore-traval-4.png" style="width:100%"></div>
+        <section class="photo-grid-wrapper">
+            <div class="container">
+                <!-- Photo Grid -->
+                <div class="explore-travel">
+                    <h5>Explore Your Travel</h5>
+                    <div class="row photo-grid col-xs-12 col-sm-2 col-md-12 col-lg-12">
+                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4">
+                            <video controls>
+                                <source src="/resources/images/kashmir-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                              </video>
+                        </div>
+                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
+                                src="/resources/images/explore-traval-2.png"><img
+                                src="/resources/images/explore-traval-5.png"></div>
+                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
+                                src="/resources/images/explore-traval-3.png"><img
+                                src="/resources/images/explore-traval-6.png"></div>
+                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"> <img
+                                src="/resources/images/explore-traval-4.png"></div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="footer-sec">
-        <div class="container">
-            <div class="enquire-more">
-                <div class="condition-txt">*conditions apply</div>
-                <b>To know more, get in touch with our Kashmir experts</b>
-                <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
-                            9419983141 </a></span></h3>
-                <p class="light-text">Our experts will respond you on all your queries.</p>
-                <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
-            </div>
-
-            <div class="footer-link">
-                <div class="visit-link">
-                    Visit :
-                    <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
-                    <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
-                    <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
+        <footer class="footer-sec">
+            <div class="container">
+                <div class="enquire-more">
+                    <div class="condition-txt">*conditions apply</div>
+                    <b>To know more, get in touch with our Kashmir experts</b>
+                    <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
+                                9419983141 </a></span></h3>
+                    <p class="light-text">Our experts will respond you on all your queries.</p>
+                    <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
                 </div>
-                <div class="social-media">
-                    <span>Follow us :</span>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
-                                title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="" title="what's up"
-                                target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon"/></a>
-                        </li>
-                        <!-- <li>
+
+                <div class="footer-link">
+                    <div class="visit-link">
+                        Visit :
+                        <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
+                        <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
+                        <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
+                    </div>
+                    <div class="social-media">
+                        <span>Follow us :</span>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
+                                    title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="" title="what's up" target="_blank"><img
+                                        src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
+                            </li>
+                            <!-- <li>
                             <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
                                 target="_blank"><i class="fc-linkedin"></i></a>
                         </li> -->
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6">
-                        © Copyright Ladakh Mountain Tour & Travels. <span>All rights reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-md-right">
-                        Powered by <a href="https://www.sublimis.tech/">Sublimis - ePorium</a>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            © Copyright Ladakh Mountain Tour & Travels. <span>All rights reserved.</span>
+                        </div>
+                        <div class="col-md-6 text-md-right">
+                            Powered by <a href="https://www.sublimis.tech/">Sublimis - ePorium</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="copyright">
+                <!-- <div class="copyright">
         © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
       </div> -->
-        </div>
-    </footer>
+            </div>
+        </footer>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade thank-you" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -740,18 +856,31 @@
             loop: true,
             centeredSlides: true,
             effect: 'coverflow',
+            noSwiping: true,
+            noSwipingClass: 'swiper-slide',
             coverflowEffect: {
                 rotate: 0,
                 stretch: 0,
-                depth: 151,
+                depth: 142,
                 modifier: 1,
                 slideShadows: false,
             },
             breakpoints: {
+                1024: {
+                    slidesPerView: 3,
+                    depth: 151,
+                },
                 640: {
-                    slidesPerView: 2
+                    slidesPerView: 2,
+                    depth: 151,
                 }
             }
+        });
+        $(document).ready(function () {
+            $('.headingForm').click(function () {
+                $('.mobile-form').toggleClass("openUp");
+                $('.downArrow').toggleClass("rotateArrow");
+            });
         });
     </script>
 
