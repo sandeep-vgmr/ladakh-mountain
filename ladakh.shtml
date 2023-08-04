@@ -28,21 +28,18 @@
   <header>
     <div class="container">
       <div class="logo-bar">
-        <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img
-            src="/resources/images/common/ladakh-logo.png" class="logo-img" alt="Ladakh Mountain Tour & Travels"
-            title="Ladakh Mountain Tour & Travels"></a>
-        <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
+        <a class="logo" href="/index.shtml"><img src="/resources/images/common/ladakh-logo.png" class="logo-img"
+            alt="Ladakh Mountain Tour & Travels" title="Ladakh Mountain Tour & Travels"></a>
+        <div class="contact-num">
           <ul class="callBlock">
             <li>
-              <a href="https://wa.me/1XXXXXXXXXX" title="what's up" target="_blank"><img
+              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
                   src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
             </li>
             <li>
               <img src="/resources/images/common/icons/call-icon.png" alt="Phone Icon" />
-              <a href="tel:919906977774" data-aos="fade-right" data-aos-delay="100"><span>+91 99069
-                  77774</span></a>
-              <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100"><span>+91 94199
-                  83141</span></a>
+              <a href="tel:916006943256"><span>+91 6006943256</span></a>
+              <a href="tel:919419983141"><span>+91 9419983141</span></a>
             </li>
             <li class="emailBlock">
               <a href="mailto:info@ladakhmountaintours.com"><span>info@ladakhmountaintours.com</span></a>
@@ -99,16 +96,19 @@
                       src="/resources/images/common/icons/icon-binoculars.png" alt=""></li>
                 </ul>
                 <h4 data-aos="fade-right" data-aos-delay="600">Price <small>(per person)</small></h4>
-                <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>13,500 <span
-                    class="star-mark">*</span></div>
-                <div class="price">
-                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary1" class="btn btn-primary itinary"
+                <div class="wrap">
+                  <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>13,500 <span
+                      class="star-mark">*</span></div>
+                  <div class="price">
+                    <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary1" class="btn btn-primary itinary"
                     data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
-                  <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
-                    data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
+                      data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                  </div>
                 </div>
               </div>
             </li>
+
             <li data-aos="fade-right" data-aos-delay="200">
               <figure>
                 <a href="#" data-toggle="modal" data-target="#detailItinerary2">
@@ -133,16 +133,19 @@
                       src="/resources/images/common/icons/icon-binoculars.png" alt=""></li>
                 </ul>
                 <h4 data-aos="fade-right" data-aos-delay="600">Price <small>(per person)</small></h4>
-                <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>14,999 <span
-                    class="star-mark">*</span></div>
-                <div class="price">
-                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary2" class="btn btn-primary itinary"
+                <div class="wrap">
+                  <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>14,999 <span
+                      class="star-mark">*</span></div>
+                  <div class="price">
+                    <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary2" class="btn btn-primary itinary"
                     data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
-                  <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
-                    data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
+                      data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                  </div>
                 </div>
               </div>
             </li>
+
             <li data-aos="fade-right" data-aos-delay="200">
               <figure>
                 <a href="#" data-toggle="modal" data-target="#detailItinerary3">
@@ -167,93 +170,93 @@
                       src="/resources/images/common/icons/icon-binoculars.png" alt=""></li>
                 </ul>
                 <h4 data-aos="fade-right" data-aos-delay="600">Price <small>(per person)</small></h4>
-                <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>15,999 <span
-                    class="star-mark">*</span></div>
-                <div class="price">
-                  <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary3" class="btn btn-primary itinary"
+                <div class="wrap">
+                  <div class="amt" data-aos="fade-right" data-aos-delay="700"><i class="fa fa-rupee"></i>15,999 <span
+                      class="star-mark">*</span></div>
+                  <div class="price">
+                    <!-- <a href="#" data-toggle="modal" data-target="#detailItinerary3" class="btn btn-primary itinary"
                     data-aos="fade-right" data-aos-delay="800">View Itinerary</a> -->
-                  <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
-                    data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary"
+                      data-aos="fade-right" data-aos-delay="800">Enquire now</a>
+                  </div>
                 </div>
               </div>
             </li>
           </ul>
         </div>
 
-        
+
 
         <div class="col-lg-4 col-md-12 mobile-form">
           <div class="right">
-              <h3 class="headingForm">Enquire now on Ladakh trip packages.<img src="/resources/images/angle-up-solid.svg"
-                      alt="down arrow" class="downArrow" /></h3>
-              <form class="form">
-                  <div class="mandate-txt">*mandatory
-                      fields</div>
-                  <div class="form-group">
-                      <label for="Name">Name *</label>
-                      <input type="text" id="Name" name="Name" class="form-control"
-                          placeholder="Enter Name">
-                  </div>
-                  <div class="form-group">
-                      <label for="email">Email Id *</label>
-                      <input type="text" id="email" name="email" class="form-control"
-                          placeholder="Enter Email Id">
-                  </div>
-                  <div class="form-group">
-                      <label for="mobile">Mobile No. *</label>
-                      <input type="text" id="mobile" name="mobile" class="form-control"
-                          placeholder="Enter 10 Digit Mobile No.">
-                  </div>
-                  <div class="form-group">
-                      <label for="arrivalMonth">Arrival Month *</label>
-                      <div class="cust-select">
-                          <select id="arrivalMonth">
-                              <option>Select Arrival Month</option>
-                              <option>February 2021</option>
-                              <option>March 2021</option>
-                              <option>April 2021</option>
-                              <option>May 2021</option>
-                              <option>June 2021</option>
-                              <option>July 2021</option>
-                              <option>August 2021</option>
-                              <option>September 2021</option>
-                              <option>October 2021</option>
-                              <option>November 2021</option>
-                              <option>December 2021</option>
-                          </select>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                      <label for="noofpax">No. Of Pax *</label>
-                      <div class="cust-select">
-                          <select id="noofpax">
-                              <option>Select No. Of Pax</option>
-                              <option>2</option>
-                              <option>Between 3 to 5</option>
-                              <option>Between 5 to 10</option>
-                              <option>10 and more</option>
-                              <option>20 and more</option>
-                          </select>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                      <label for="message">Your Message</label>
-                      <textarea id="message" class="form-control"></textarea>
-                  </div>
-                  <div class="form-group">
-                      <label for="captcha">Captcha *</label>
-                      <div class="row row-sm align-items-center">
-                          <div class="col-auto">80 + 9 =</div>
-                          <div class="col"><input type="text" id="captcha" name="captcha"
-                                  class="form-control" placeholder="Enter Your Answer"></div>
-                      </div>
-                  </div>
-                  <div class="btn-block">
-                      <a href="thank-you.shtml" class="btn btn-primary">Enquire Now</a>
-                  </div>
-              </form>
+            <h3 class="headingForm">Enquire now on Ladakh trip packages.<img src="/resources/images/angle-up-solid.svg"
+                alt="down arrow" class="downArrow" /></h3>
+            <form class="form">
+              <div class="mandate-txt">*mandatory
+                fields</div>
+              <div class="form-group">
+                <label for="Name">Name *</label>
+                <input type="text" id="Name" name="Name" class="form-control" placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Id *</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email Id">
+              </div>
+              <div class="form-group">
+                <label for="mobile">Mobile No. *</label>
+                <input type="text" id="mobile" name="mobile" class="form-control"
+                  placeholder="Enter 10 Digit Mobile No.">
+              </div>
+              <div class="form-group">
+                <label for="arrivalMonth">Arrival Month *</label>
+                <div class="cust-select">
+                  <select id="arrivalMonth">
+                    <option>Select Arrival Month</option>
+                    <option>February 2021</option>
+                    <option>March 2021</option>
+                    <option>April 2021</option>
+                    <option>May 2021</option>
+                    <option>June 2021</option>
+                    <option>July 2021</option>
+                    <option>August 2021</option>
+                    <option>September 2021</option>
+                    <option>October 2021</option>
+                    <option>November 2021</option>
+                    <option>December 2021</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="noofpax">No. Of Pax *</label>
+                <div class="cust-select">
+                  <select id="noofpax">
+                    <option>Select No. Of Pax</option>
+                    <option>2</option>
+                    <option>Between 3 to 5</option>
+                    <option>Between 5 to 10</option>
+                    <option>10 and more</option>
+                    <option>20 and more</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" class="form-control"></textarea>
+              </div>
+              <!-- <div class="form-group">
+                <label for="captcha">Captcha *</label>
+                <div class="row row-sm align-items-center">
+                  <div class="col-auto">80 + 9 =</div>
+                  <div class="col"><input type="text" id="captcha" name="captcha" class="form-control"
+                      placeholder="Enter Your Answer"></div>
+                </div>
+              </div> -->
+              <div class="btn-block">
+                <a href="thank-you.shtml" class="btn btn-primary">Enquire Now</a>
+              </div>
+            </form>
           </div>
-      </div>
+        </div>
 
       </div>
     </div>
@@ -285,7 +288,7 @@
                 title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
             </li>
             <li>
-              <a href="" title="what's up" target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg"
+              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg"
                   alt="What's up icon" /></a>
             </li>
             <!-- <li>
@@ -588,6 +591,7 @@
       </div>
     </div>
   </div>
+
   <!-- Itinerary Modal -->
   <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
   <!-- footer js css and script starts -->
@@ -597,11 +601,16 @@
     <div></div>
     <div></div>
   </div>
+
   <script src="/resources/js/jquery.min.js"></script>
   <script src="/resources/js/jquery.easing.min.js"></script>
   <script src="/resources/js/bootstrap.min.js"></script>
   <script src="/resources/js/aos.js"></script>
   <script src="/resources/js/main.js"></script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPL8ZKF" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 </body>
 
