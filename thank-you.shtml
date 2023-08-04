@@ -28,21 +28,18 @@
   <header>
     <div class="container">
       <div class="logo-bar">
-        <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img 
-            src="/resources/images/common/ladakh-logo.png" class="logo-img" alt="Ladakh Mountain Tour & Travels"
-            title="Ladakh Mountain Tour & Travels"></a>
-        <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
+        <a class="logo" href="/index.shtml"><img src="/resources/images/common/ladakh-logo.png" class="logo-img"
+            alt="Ladakh Mountain Tour & Travels" title="Ladakh Mountain Tour & Travels"></a>
+        <div class="contact-num">
           <ul class="callBlock">
             <li>
-              <a href="https://wa.me/1XXXXXXXXXX" title="what's up" target="_blank"><img
+              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
                   src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
             </li>
             <li>
               <img src="/resources/images/common/icons/call-icon.png" alt="Phone Icon" />
-              <a href="tel:919906977774" data-aos="fade-right" data-aos-delay="100"><span>+91 99069
-                  77774</span></a>
-              <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100"><span>+91 94199
-                  83141</span></a>
+              <a href="tel:91 6006943256"><span>+91 6006943256</span></a>
+              <a href="tel:91 9419983141"><span>+91 9419983141</span></a>
             </li>
             <li class="emailBlock">
               <a href="mailto:info@ladakhmountaintours.com"><span>info@ladakhmountaintours.com</span></a>
@@ -53,6 +50,7 @@
     </div>
   </header>
   <!-- Header Ends -->
+
   <section class="content" data-aos="fade-right" data-aos-delay="100">
     <div class="container">
       <div class="row align-items-center justify-content-center">

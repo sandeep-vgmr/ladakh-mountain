@@ -145,7 +145,7 @@
                     <div class="col-lg-8 col-md-12">
                         <h3 data-aos="fade-right" data-aos-delay="100">Glimpse of Kashmir Itinerary</h3>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-1.jpg" />
                             </div>
@@ -167,7 +167,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-2.jpg" />
                             </div>
@@ -197,7 +197,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-3.jpg" />
                             </div>
@@ -218,7 +218,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-4.jpg" />
                             </div>
@@ -235,7 +235,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-5.jpg" />
                             </div>
@@ -252,7 +252,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12">
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100" >
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-6.jpg" />
                             </div>
@@ -507,14 +507,14 @@
                             <label for="message">Your Message</label>
                             <textarea id="message" class="form-control"></textarea>
                         </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
+                        <!-- <div class="form-group" data-aos="fade-right" data-aos-delay="100">
                             <label for="captcha">Captcha *</label>
                             <div class="row row-sm align-items-center">
                                 <div class="col-auto">80 + 9 =</div>
                                 <div class="col"><input type="text" id="captcha" name="captcha" class="form-control"
                                         placeholder="Enter Your Answer"></div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="btn-block" data-aos="fade-right" data-aos-delay="100">
                             <a href="thank-you.shtml" class="btn btn-primary">Send Query</a>
                         </div>

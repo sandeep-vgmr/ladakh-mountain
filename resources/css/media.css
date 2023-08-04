@@ -37,7 +37,11 @@
     .content .row .mobile-form h3 .downArrow.rotateArrow{transform: rotate(180deg);}
     .content .row .mobile-form .right form{padding: 13px 20px 20px 20px;}
     .content .row .mobile-form .mandate-txt{    right: 22px;top: -5px;}
-    .banner ~ .content{margin-top: -3px;z-index: 1;position: relative;}
+    .banner ~ .content{margin-top: -3px;position: relative;}
+    .home-page .mainWrapper .card-wrapper{flex-direction: column;width: 100%;}
+    .home-page .mainWrapper .cards{width: 100%;margin-bottom: 5rem;}
+    .home-page .home-banner{ height: 100%;background-size: cover;}
+    .home-page .home-banner::after{    background: none;}
 }
 
 @media screen and (max-width: 991px) {
@@ -107,6 +111,12 @@
     .content .row .mobile-form .mandate-txt{top: 5px;}
     .content .row .mobile-form{height: 35px;}
     .logo-bar .contact-num ul.callBlock{    margin-top: 35px;}
+    .home-page .home-banner .dotted-circle .wrapper img{width: 100%;}
+    .home-page .home-banner figure figcaption{    padding-top: 200px;    font-size: 75px;}
+    .home-page .home-banner .mainWrapper{    padding: 0 10px;}
+    .home-page .mainWrapper .cards .row .cards-content h5{left: 5px;top: 85px;font-size: 45px;}
+    .home-page .mainWrapper .cards .row .cards-content h5 span{ font-size: 45px;line-height: 90px;}
+    
 }
 
 @media screen and (max-width: 576px) {
@@ -133,7 +143,6 @@
     .copyright{margin-bottom: 5px;}
     .social-media{margin-bottom: 30px;}
     .banner figcaption{font-size: 70px;}
-    /* .kashmir-page .photo-grid{height: 456px;} */
 }
 
 @media screen and (max-width: 320px) {
