@@ -75,49 +75,53 @@
             <div class="container">
                 <div class="card-wrapper">
                     <div class="cards kashmir-cards">
-                        <div class="row">
-                            <div class="column cards-content">
-                                <img src="/resources/images/explore-kashmir-img1.png" alt="Explore Kashmir 1">
-                                <h5>Explore <span>Kashmir</span></h5>
+                        <a href="/kashmir.shtml">
+                            <div class="row">
+                                <div class="column cards-content">
+                                    <img src="/resources/images/explore-kashmir-img1.png" alt="Explore Kashmir 1">
+                                    <h5>Explore <span>Kashmir</span></h5>
+                                </div>
+                                <div class="column cards-content">
+                                    <ul>
+                                        <li>
+                                            <img src="/resources/images/explore-kashmir-img2.png" alt="Explore Kashmir 2">
+                                            <p><b>Kashmir</b> is the heaven on earth and known for its grand magnificence
+                                                with
+                                                high
+                                                pinnacles and snow-clad extents.</p>
+                                        </li>
+                                        <li>
+                                            <img src="/resources/images/explore-kashmir-img3.png" alt="Explore Kashmir 3">
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="column cards-content">
-                                <ul>
-                                    <li>
-                                        <img src="/resources/images/explore-kashmir-img2.png" alt="Explore Kashmir 2">
-                                        <p><b>Kashmir</b> is the heaven on earth and known for its grand magnificence
-                                            with
-                                            high
-                                            pinnacles and snow-clad extents.</p>
-                                    </li>
-                                    <li>
-                                        <img src="/resources/images/explore-kashmir-img3.png" alt="Explore Kashmir 3">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        </a>
                         <a href="/kashmir.shtml"><button type="button" class="view-all-btn">view Kashmir
-                                Trip</button></a>
+                            Trip</button></a>
                     </div>
 
                     <div class="cards kashmir-cards">
-                        <div class="row">
-                            <div class="column cards-content">
-                                <img src="/resources/images/explore-ladakh-img1.png" alt="Explore ladakh 1">
-                                <h5>Explore <span>Ladakh</span></h5>
+                        <a href="/ladakh.shtml">
+                            <div class="row">
+                                <div class="column cards-content">
+                                    <img src="/resources/images/explore-ladakh-img1.png" alt="Explore ladakh 1">
+                                    <h5>Explore <span>Ladakh</span></h5>
+                                </div>
+                                <div class="column cards-content">
+                                    <ul>
+                                        <li>
+                                            <img src="/resources/images/explore-ladakh-img2.png" alt="Explore ladakh 2">
+                                            <p><b>Ladakh</b> is a land of natural beauty, untouched by city’s life has so
+                                                much to offer.</p>
+                                        </li>
+                                        <li>
+                                            <img src="/resources/images/explore-ladakh-img3.png" alt="Explore ladakh 3">
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="column cards-content">
-                                <ul>
-                                    <li>
-                                        <img src="/resources/images/explore-ladakh-img2.png" alt="Explore ladakh 2">
-                                        <p><b>Ladakh</b> is a land of natural beauty, untouched by city’s life has so
-                                            much to offer.</p>
-                                    </li>
-                                    <li>
-                                        <img src="/resources/images/explore-ladakh-img3.png" alt="Explore ladakh 3">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        </a>
                         <a href="/ladakh.shtml"><button type="button" class="view-all-btn">view ladakh Trip</button></a>
                     </div>
 
