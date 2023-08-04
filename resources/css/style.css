@@ -146,7 +146,7 @@ header.fixedHeader{position:fixed; top:0; background:#fff; z-index:2}
 .logo-bar .contact-num ul.callBlock{padding: 0;display: flex;align-items: center;margin-bottom: 0;}
 .logo-bar .contact-num ul.callBlock li{      margin-right: 20px;  list-style: none;}
 .logo-bar .contact-num ul.callBlock li:nth-child(2){    list-style: none;display: flex;flex-direction: column;}
-.logo-bar .contact-num ul.callBlock li:nth-child(2) img{ position: absolute;top: 7px;}
+.logo-bar .contact-num ul.callBlock li:nth-child(2) img{ position: absolute;top: 7px;top: 35px;}
 .logo-bar .contact-num ul.callBlock li:nth-child(2) a{ padding-left: 50px;}
 .logo-bar .contact-num .emailBlock{position: relative;}
 .logo-bar .contact-num .emailBlock span{padding-left: 45px;}
@@ -180,8 +180,9 @@ header.fixedHeader{position:fixed; top:0; background:#fff; z-index:2}
 .content .package-listing > li .details h2{color: #9A2E00;font-weight: 600;font-size: 24px;}
 .content .package-listing > li .details h4{color: #9A2E00;font-weight: 600;font-size: 14px;text-transform:uppercase;margin-bottom: 8px;}
 .content .package-listing > li .details h4 > small{font-size:15px; font-weight:400; text-transform:none}
-.content .package-listing > li .details .price{display: flex;justify-content: space-between;align-items: center;}
-.content .package-listing > li .details .price a{width: 48%;font-size: 15px;transition: all ease 0.5s;}
+/* .content .package-listing > li .details .price{display: flex;justify-content: space-between;align-items: center;} */
+.content .package-listing > li .details .price a{width: 100%;font-size: 15px;transition: all ease 0.5s;}
+.content .package-listing > li .details .wrap{display: flex;justify-content: space-between;}
 .content .package-listing > li .details .price a.itinary{background: #c69c6e; border:solid 1px #c69c6e;}
 .content .package-listing > li .details .price a.itinary:hover{background: #9A2E00; border:solid 1px #9A2E00;}
 .content .package-listing > li .details .amt{font-size: 32px;font-weight:400;position:relative;line-height: normal;margin-bottom: 10px;}
