@@ -23,7 +23,7 @@
   <!-- header css and script ends -->
 </head>
 
-<body>
+<body class="thank-you">
   <!-- Header Starts -->
   <header>
     <div class="container">

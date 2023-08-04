@@ -54,7 +54,7 @@
   </header>
 
   <!-- Header Ends -->
-  <section class="banner" data-aos="fade-right" data-aos-delay="100">
+  <section class="banner">
     <figure>
       <img src="/resources/images/banner-img.jpg" alt="Ladakh" title="Ladakh" data-aos="fade-right"
         data-aos-delay="100">
@@ -68,7 +68,7 @@
   <section class="content">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-6">
+        <div class="col-lg-8 col-md-12">
           <h3 data-aos="fade-right" data-aos-delay="100">Beautiful Journey Begins Here</h3>
           <p data-aos="fade-right" data-aos-delay="100">Ladakh is a land of natural beauty, untouched by city’s life has
             so much to offer. It’s pure magic and
@@ -180,74 +180,80 @@
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-6 ">
-          <div class="right" data-aos="fade-right" data-aos-delay="100">
-            <h3 data-aos="fade-right" data-aos-delay="100">Enquire now on Ladakh trip packages.</h3>
-            <form class="form">
-              <div class="mandate-txt" data-aos="fade-right" data-aos-delay="100">*mandatory fields</div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="Name">Name *</label>
-                <input type="text" id="Name" name="Name" class="form-control" placeholder="Enter Name">
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="email">Email Id *</label>
-                <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email Id">
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="mobile">Mobile No. *</label>
-                <input type="text" id="mobile" name="mobile" class="form-control"
-                  placeholder="Enter 10 Digit Mobile No.">
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="arrivalMonth">Arrival Month *</label>
-                <div class="cust-select">
-                  <select id="arrivalMonth">
-                    <option>Select Arrival Month</option>
-                    <option>February 2021</option>
-                    <option>March 2021</option>
-                    <option>April 2021</option>
-                    <option>May 2021</option>
-                    <option>June 2021</option>
-                    <option>July 2021</option>
-                    <option>August 2021</option>
-                    <option>September 2021</option>
-                    <option>October 2021</option>
-                    <option>November 2021</option>
-                    <option>December 2021</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="noofpax">No. Of Pax *</label>
-                <div class="cust-select">
-                  <select id="noofpax">
-                    <option>Select No. Of Pax</option>
-                    <option>2</option>
-                    <option>Between 3 to 5</option>
-                    <option>Between 5 to 10</option>
-                    <option>10 and more</option>
-                    <option>20 and more</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="message">Your Message</label>
-                <textarea id="message" class="form-control"></textarea>
-              </div>
-              <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                <label for="captcha">Captcha *</label>
-                <div class="row row-sm align-items-center">
-                  <div class="col-auto">80 + 9 =</div>
-                  <div class="col"><input type="text" id="captcha" name="captcha" class="form-control"
-                      placeholder="Enter Your Answer"></div>
-                </div>
-              </div>
-              <div class="btn-block" data-aos="fade-right" data-aos-delay="100">
-                <a href="thank-you.shtml" class="btn btn-primary">Send Query</a>
-              </div>
-            </form>
+        
+
+        <div class="col-lg-4 col-md-12 mobile-form">
+          <div class="right">
+              <h3 class="headingForm">Enquire now on Ladakh trip packages.<img src="/resources/images/angle-up-solid.svg"
+                      alt="down arrow" class="downArrow" /></h3>
+              <form class="form">
+                  <div class="mandate-txt">*mandatory
+                      fields</div>
+                  <div class="form-group">
+                      <label for="Name">Name *</label>
+                      <input type="text" id="Name" name="Name" class="form-control"
+                          placeholder="Enter Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email Id *</label>
+                      <input type="text" id="email" name="email" class="form-control"
+                          placeholder="Enter Email Id">
+                  </div>
+                  <div class="form-group">
+                      <label for="mobile">Mobile No. *</label>
+                      <input type="text" id="mobile" name="mobile" class="form-control"
+                          placeholder="Enter 10 Digit Mobile No.">
+                  </div>
+                  <div class="form-group">
+                      <label for="arrivalMonth">Arrival Month *</label>
+                      <div class="cust-select">
+                          <select id="arrivalMonth">
+                              <option>Select Arrival Month</option>
+                              <option>February 2021</option>
+                              <option>March 2021</option>
+                              <option>April 2021</option>
+                              <option>May 2021</option>
+                              <option>June 2021</option>
+                              <option>July 2021</option>
+                              <option>August 2021</option>
+                              <option>September 2021</option>
+                              <option>October 2021</option>
+                              <option>November 2021</option>
+                              <option>December 2021</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="noofpax">No. Of Pax *</label>
+                      <div class="cust-select">
+                          <select id="noofpax">
+                              <option>Select No. Of Pax</option>
+                              <option>2</option>
+                              <option>Between 3 to 5</option>
+                              <option>Between 5 to 10</option>
+                              <option>10 and more</option>
+                              <option>20 and more</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Your Message</label>
+                      <textarea id="message" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                      <label for="captcha">Captcha *</label>
+                      <div class="row row-sm align-items-center">
+                          <div class="col-auto">80 + 9 =</div>
+                          <div class="col"><input type="text" id="captcha" name="captcha"
+                                  class="form-control" placeholder="Enter Your Answer"></div>
+                      </div>
+                  </div>
+                  <div class="btn-block">
+                      <a href="thank-you.shtml" class="btn btn-primary">Enquire Now</a>
+                  </div>
+              </form>
           </div>
-        </div>
+      </div>
 
       </div>
     </div>

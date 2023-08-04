@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ladakh Mountain</title>
+    <title>Home</title>
     <!-- header css and script starts -->
     <link href="/resources/images/common/icons/icon-144x144.png" rel="apple-touch-icon" />
     <link href="/resources/images/common/icons/icon-128x128.png" rel="icon" sizes="128x128" />
@@ -54,23 +54,78 @@
     </header>
     <!-- Header Ends -->
 
-    <section class="home-banner" data-aos="fade-right" data-aos-delay="100">
+    <section class="home-banner">
         <figure>
-            <img src="/resources/images/home-banner.png" class="home-banner-img" alt="Home banner image"
-                title="Home banner image" data-aos="fade-right" data-aos-delay="100">
+            <!-- <img src="/resources/images/home-banner.png" class="home-banner-img" alt="Home banner image"
+                title="Home banner image" data-aos="fade-right" data-aos-delay="100"> -->
             <figcaption>
                 Heaven
                 <p>is a Place on Earth</p>
             </figcaption>
 
             <div class="dotted-circle">
-                <h6>Explore</h6><img src="/resources/images/dotted-circle.svg" alt="map icon">
+                <div class="container">
+                    <div class="wrapper">
+                        <h6>Explore</h6><img src="/resources/images/dotted-circle.svg" alt="map icon">
+                    </div>
+                </div>
             </div>
         </figure>
+
+        <div class="mainWrapper">
+            <div class="container">
+                <div class="card-wrapper">
+                    <div class="cards kashmir-cards">
+                        <div class="row">
+                            <div class="column cards-content">
+                                <img src="/resources/images/explore-kashmir-img1.png" alt="Explore Kashmir 1">
+                                <h5>Explore <span>Kashmir</span></h5>
+                            </div>
+                            <div class="column cards-content">
+                                <ul>
+                                    <li>
+                                        <img src="/resources/images/explore-kashmir-img2.png" alt="Explore Kashmir 2">
+                                        <p><b>Kashmir</b> is the heaven on earth and known for its grand magnificence with
+                                            high
+                                            pinnacles and snow-clad extents.</p>
+                                    </li>
+                                    <li>
+                                        <img src="/resources/images/explore-kashmir-img3.png" alt="Explore Kashmir 3">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="/kashmir.shtml"><button type="button" class="view-all-btn">view Kashmir Trip</button></a>
+                    </div>
+    
+                    <div class="cards kashmir-cards">
+                        <div class="row">
+                            <div class="column cards-content">
+                                <img src="/resources/images/explore-ladakh-img1.png" alt="Explore ladakh 1">
+                                <h5>Explore <span>Ladakh</span></h5>
+                            </div>
+                            <div class="column cards-content">
+                                <ul>
+                                    <li>
+                                        <img src="/resources/images/explore-ladakh-img2.png" alt="Explore ladakh 2">
+                                        <p><b>Ladakh</b> is a land of natural beauty, untouched by city’s life has so much to offer.</p>
+                                    </li>
+                                    <li>
+                                        <img src="/resources/images/explore-ladakh-img3.png" alt="Explore ladakh 3">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="/ladakh.shtml"><button type="button" class="view-all-btn">view ladakh Trip</button></a>
+                    </div>
+    
+                </div>
+            </div>
+        </div> 
     </section>
 
     <!-- Main section  -->
-    <section class="mainWrapper">
+    <!-- <section class="mainWrapper">
         <div class="container">
             <div class="card-wrapper">
                 <div class="cards kashmir-cards">
@@ -121,7 +176,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer-sec">
         <div class="container">

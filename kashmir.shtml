@@ -33,8 +33,8 @@
             <div class="container">
                 <div class="logo-bar">
                     <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img
-                            src="/resources/images/common/ladakh-logo.png" class="logo-img" alt="Ladakh Mountain Tour & Travels"
-                            title="Ladakh Mountain Tour & Travels"></a>
+                            src="/resources/images/common/ladakh-logo.png" class="logo-img"
+                            alt="Ladakh Mountain Tour & Travels" title="Ladakh Mountain Tour & Travels"></a>
                     <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
                         <ul class="callBlock">
                             <li>
@@ -59,7 +59,7 @@
         </header>
 
         <!-- Header Ends -->
-        <section class="banner" data-aos="fade-right" data-aos-delay="100">
+        <section class="banner">
             <figure>
                 <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh" data-aos="fade-right"
                     data-aos-delay="100">
@@ -96,9 +96,9 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <div id="play-button"><img src="/resources/images/common/icons/play-video.svg"
-                                        alt="Play Button" /></div>
-                                <video id="video">
+                                <!-- <div id="play-button"><img src="/resources/images/common/icons/play-video.svg"
+                                        alt="Play Button" /></div> -->
+                                <video autoplay playsinline loop muted id="video">
                                     <source src="/resources/images/kashmir-video.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -348,22 +348,51 @@
         <section class="photo-grid-wrapper">
             <div class="container">
                 <!-- Photo Grid -->
-                <div class="explore-travel">
-                    <h5>Explore Your Travel</h5>
-                    <div class="row photo-grid col-xs-12 col-sm-2 col-md-12 col-lg-12">
-                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
-                                src="/resources/images/explore-traval-1.png"></div>
-                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
-                                src="/resources/images/explore-traval-2.png"><img
-                                src="/resources/images/explore-traval-5.png"></div>
-                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"><img
-                                src="/resources/images/explore-traval-3.png"><img
-                                src="/resources/images/explore-traval-6.png"></div>
-                        <div class="column col-xs-12 col-sm-2 col-md-12 col-lg-4"> <img
-                                src="/resources/images/explore-traval-4.png"></div>
+                <div class="row img-gallery-magnific col-xs-12 col-sm-2 col-md-12 col-lg-12">
+                    <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-1.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-1.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
+                    </div>
 
+                    <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-2.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-2.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-5.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-5.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
+                    </div>
+
+                    <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-3.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-3.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-6.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-6.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
+                    </div>
+
+                    <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
+                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-4.png"
+                            title="Explore Traval Images">
+                            <img src="/resources/images/explore-traval-4.png" alt="Explore Traval Images" />
+                            <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
+                        </a>
                     </div>
                 </div>
+                <div class="clear"></div>
+                </p>
             </div>
         </section>
 
@@ -769,6 +798,54 @@
             </div>
         </div>
     </div>
+
+    <!-- image grid gallery modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Swiper -->
+                    <div class="swiper-container" data-swiper="init" data-grab-cursor="true" data-effect="coverflow"
+                        data-centered-slides="true" data-slides-per-view="auto" data-free-mode="false"
+                        data-coverflow-effect: '{"rotate": 50, "stretch": 0, "depth": 100, "modifier": 1, "slideShadows" : true, }'>
+                        <div class="swiper-wrapper pb-2">
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
+                            <div class="swiper-slide"
+                                style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Itinerary Modal -->
     <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
     <!-- footer js css and script starts -->
@@ -784,6 +861,7 @@
     <script src="/resources/js/aos.js"></script>
     <script src="/resources/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <script>
         var mySwiper = new Swiper('.swiper-container', {
@@ -810,31 +888,6 @@
                     depth: 151,
                 }
             }
-        });
-        $(document).ready(function () {
-            $('.headingForm').click(function () {
-                $('.mobile-form').toggleClass("openUp");
-                $('.downArrow').toggleClass("rotateArrow");
-            });
-
-            const video = document.getElementById("video");
-            const circlePlayButton = document.getElementById("play-button");
-
-            function togglePlay() {
-                if (video.paused || video.ended) {
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            }
-
-            circlePlayButton.addEventListener("click", togglePlay);
-            video.addEventListener("playing", function () {
-                circlePlayButton.style.opacity = 0;
-            });
-            video.addEventListener("pause", function () {
-                circlePlayButton.style.opacity = 1;
-            });
         });
     </script>
 
