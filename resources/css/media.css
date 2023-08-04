@@ -12,6 +12,9 @@
 @media screen and (max-width: 1024px) {
     .content .package-listing > li figure{width: auto;}
     .content .package-listing > li figure ~ .details{width: calc(100% - 190px);padding: 20px;}
+    .logo-bar .contact-num a span{    display: none;}
+    .logo-bar .contact-num ul.callBlock li:nth-child(2) img{position: relative; top: 0; width: 37px;height: 37px;}
+    .logo-bar .contact-num .callBlock a:first-child:before{top: -18px;left: -10px;}
     /* kashmir page css  */
     .kashmir-page .banner{height: 600px;}
     .kashmir-page .banner figure img{    object-fit: cover;}
@@ -41,7 +44,7 @@
     .content .package-listing > li figure{width: 100%;height: 240px;}
     .content .package-listing > li figure ~ .details{width: 100%;}
     .logo-bar .contact-num a{font-size: 14px;overflow-wrap: anywhere;}
-    .logo-bar .contact-num .callBlock a:first-child:before{top:2px}
+    /* .logo-bar .contact-num .callBlock a:first-child:before{top:2px} */
     .logo-bar .contact-num .emailBlock a:before{top:-7px}
 }
 
@@ -56,12 +59,16 @@
 }
 
 @media screen and (max-width: 599px) {
-    .logo-bar a img{    width: 90px;}
+    /* .logo-bar a img{    width: 90px;} */
     .logo-bar .contact-num a span{ display: none;}
     .logo-bar .contact-num .callBlock a:first-child:before{top:0}
     .logo-bar .contact-num .emailBlock a::before{top:0;}
     .logo-bar .contact-num{padding-left: 42px;margin-top: -40px;}
     .logo-bar .contact-num:before{top:4px}
+    .logo-bar a img.logo-img{width: 90px;}
+    .logo-bar .contact-num ul.callBlock{    margin-top: 35px;}
+    .logo-bar .contact-num .callBlock a:first-child:before{top: -18px;}
+    .kashmir-page .swiper-slide .img-slide #play-button img{    width: 36.33px;height: 41.148px;}
     /* kashmir page css  */
     .kashmir-page .banner figure img{object-fit: cover;}
     .kashmir-page .banner{height: 510px;}
@@ -98,6 +105,7 @@
     .kashmir-page .content .row .mobile-form h3{padding: 5px; margin-bottom: 0;}
     .kashmir-page .content .row .mobile-form .mandate-txt{top: 5px;}
     .kashmir-page .content .row .mobile-form{height: 35px;}
+    .logo-bar .contact-num ul.callBlock{    margin-top: 35px;}
 }
 
 @media screen and (max-width: 576px) {

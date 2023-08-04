@@ -28,11 +28,26 @@
   <header>
     <div class="container">
       <div class="logo-bar">
-        <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img src="/resources/images/common/ladakh-logo.png"
-            alt="Ladakh Mountain Tour & Travels" title="Ladakh Mountain Tour & Travels"></a>
+        <a class="logo" href="/index.shtml" data-aos="fade-right" data-aos-delay="100"><img 
+            src="/resources/images/common/ladakh-logo.png" class="logo-img" alt="Ladakh Mountain Tour & Travels"
+            title="Ladakh Mountain Tour & Travels"></a>
         <div class="contact-num" data-aos="fade-right" data-aos-delay="100">
-          <a href="tel:919906977774" data-aos="fade-right" data-aos-delay="100">+91 99069 77774</a>
-          <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100">+91 94199 83141</a>
+          <ul class="callBlock">
+            <li>
+              <a href="https://wa.me/1XXXXXXXXXX" title="what's up" target="_blank"><img
+                  src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
+            </li>
+            <li>
+              <img src="/resources/images/common/icons/call-icon.png" alt="Phone Icon" />
+              <a href="tel:919906977774" data-aos="fade-right" data-aos-delay="100"><span>+91 99069
+                  77774</span></a>
+              <a href="tel:919419983141" data-aos="fade-right" data-aos-delay="100"><span>+91 94199
+                  83141</span></a>
+            </li>
+            <li class="emailBlock">
+              <a href="mailto:info@ladakhmountaintours.com"><span>info@ladakhmountaintours.com</span></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -42,13 +57,15 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col thank-you-block">
-          <p data-aos="fade-right" data-aos-delay="100">Thank you for choosing Ladakh Mountain Tour & Travels for your travel requirements.</p>
+          <p data-aos="fade-right" data-aos-delay="100">Thank you for choosing Ladakh Mountain Tour & Travels for your
+            travel requirements.</p>
           <p data-aos="fade-right" data-aos-delay="100">Our Leh - Ladakh expert will get in touch with you shortly.</p>
           <div class="social-media">
             <span>Follow us :</span>
             <ul>
               <li>
-                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT" title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
+                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
+                  title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
               </li>
               <!-- <li>
                 <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
@@ -62,13 +79,16 @@
       </div>
     </div>
   </section>
+
   <footer class="footer-sec">
     <div class="container">
-      <div class="enquire-more" data-aos="fade-right" data-aos-delay="100">
+      <div class="enquire-more">
         <div class="condition-txt">*conditions apply</div>
-        <b>To know more, get in touch with our Leh - Ladakh experts</b>
-        <h3>Call : <span>+91 99069 77774, +91 94199 83141</span></h3>
-        <p class="light-text" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">Our experts will respond you on all your queries.</p>
+        <b>To know more, get in touch with our Kashmir experts</b>
+        <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
+              9419983141 </a></span></h3>
+        <p class="light-text">Our experts will respond you on all your queries.</p>
+        <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
       </div>
 
       <div class="footer-link">
@@ -76,28 +96,40 @@
           Visit :
           <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
           <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
-          <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a>
+          <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
         </div>
         <div class="social-media">
           <span>Follow us :</span>
           <ul>
             <li>
-              <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT" title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
-            </li>
-            <!-- <li>
-              <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
+              <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
+                title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin" target="_blank"><i class="fc-linkedin"></i></a>
-            </li> -->
+              <a href="" title="what's up" target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg"
+                  alt="What's up icon" /></a>
+            </li>
+            <!-- <li>
+                            <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
+                                target="_blank"><i class="fc-linkedin"></i></a>
+                        </li> -->
           </ul>
         </div>
       </div>
 
-
       <div class="copyright">
-        © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
+        <div class="row">
+          <div class="col-md-6">
+            © Copyright Ladakh Mountain Tour & Travels. <span>All rights reserved.</span>
+          </div>
+          <div class="col-md-6 text-md-right">
+            Powered by <a href="https://www.sublimis.tech/">Sublimis - ePorium</a>
+          </div>
+        </div>
       </div>
+      <!-- <div class="copyright">
+        © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
+      </div> -->
     </div>
   </footer>
 
