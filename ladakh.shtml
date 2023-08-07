@@ -212,17 +212,18 @@
                 <div class="cust-select">
                   <select id="arrivalMonth">
                     <option>Select Arrival Month</option>
-                    <option>February 2021</option>
-                    <option>March 2021</option>
-                    <option>April 2021</option>
-                    <option>May 2021</option>
-                    <option>June 2021</option>
-                    <option>July 2021</option>
-                    <option>August 2021</option>
-                    <option>September 2021</option>
-                    <option>October 2021</option>
-                    <option>November 2021</option>
-                    <option>December 2021</option>
+                    <option>August 2023</option>
+                    <option>September 2023</option>
+                    <option>October 2023</option>
+                    <option>November 2023</option>
+                    <option>December 2023</option>
+                    <option>January 2024</option>
+                    <option>February 2024</option>
+                    <option>March 2024</option>
+                    <option>April 2024</option>
+                    <option>May 2024</option>
+                    <option>June 2024</option>
+                    <option>July 2024</option>
                   </select>
                 </div>
               </div>
@@ -266,7 +267,7 @@
     <div class="container">
       <div class="enquire-more">
         <div class="condition-txt">*conditions apply</div>
-        <b>To know more, get in touch with our Kashmir experts</b>
+        <b>To know more, get in touch with our Leh - Ladakh experts</b>
         <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
               9419983141 </a></span></h3>
         <p class="light-text">Our experts will respond you on all your queries.</p>
@@ -288,8 +289,8 @@
                 title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
             </li>
             <li>
-              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg"
-                  alt="What's up icon" /></a>
+              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
+                  src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
             </li>
             <!-- <li>
                     <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
@@ -342,17 +343,18 @@
               <div class="cust-select">
                 <select id="arrivalMonth">
                   <option>Select Arrival Month</option>
-                  <option>February 2021</option>
-                  <option>March 2021</option>
-                  <option>April 2021</option>
-                  <option>May 2021</option>
-                  <option>June 2021</option>
-                  <option>July 2021</option>
-                  <option>August 2021</option>
-                  <option>September 2021</option>
-                  <option>October 2021</option>
-                  <option>November 2021</option>
-                  <option>December 2021</option>
+                  <option>August 2023</option>
+                  <option>September 2023</option>
+                  <option>October 2023</option>
+                  <option>November 2023</option>
+                  <option>December 2023</option>
+                  <option>January 2024</option>
+                  <option>February 2024</option>
+                  <option>March 2024</option>
+                  <option>April 2024</option>
+                  <option>May 2024</option>
+                  <option>June 2024</option>
+                  <option>July 2024</option>
                 </select>
               </div>
             </div>
