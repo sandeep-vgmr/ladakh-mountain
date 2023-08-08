@@ -216,11 +216,11 @@ form .btn-block .btn{width: 100%; display: block;}
 form.form{position:relative;}
 .mandate-txt{position: absolute;right: 0;top: -20px;width: 100%;text-align: right;font-size:12px; color:rgb(27 33 52 / 0.6)}
 
-.footer-sec{background:#EEEDE9;padding-top: 50px;margin-top: -20px;position: relative;display: flex;width: 100%;z-index: 0;overflow: hidden;}
-.footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 188px;position: absolute;bottom: -3px;z-index: 1;left: -20px;}
+.footer-sec{ background: none;z-index: 2;margin: 0;padding-top: 50px;margin-top: -20px;position: relative;display: flex;width: 100%;overflow: hidden;height: 191px;padding-top: 110px;}
+.footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 200px;position: absolute;bottom: -3px;z-index: 1;left: -30px;}
 .footer-sec::after{content: ''; background: url('/resources/images/kashmir-footer-layer.png') no-repeat;     background-size: 100% 100%;width: 100%;height: 188px;position: absolute;bottom: 95px;z-index: 1;}
 /* .footer-sec::before{content: '';background: url('/resources/images/footer-bg.png') repeat-x bottom center;width: 100%;height: 188px;position: absolute;bottom: 0;z-index: 1;} */
-.footer-sec > .container {/* margin: 0px 0 25px 0; */padding: 0;border-radius: 12px;background: #fff;-webkit-box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);-moz-box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);position:relative;text-align: center;/* z-index: -1; */}
+/* .footer-sec > .container {margin: 0px 0 25px 0;padding: 0;border-radius: 12px;background: #fff;-webkit-box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);-moz-box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);box-shadow: 0px 2px 11px 0px rgb(0 0 0 / 0.2);position:relative;text-align: center;z-index: -1;} */
 .enquire-more{margin: 0px 0 25px 0;padding:20px;text-align: center;width: 100%;position: relative;z-index: 9;}
 .enquire-more .condition-txt{position:absolute;top: -34px;right:0;font-size: 12px;color: rgb(27 33 52 / 60%);}
 .enquire-more b{color:#000000;}
@@ -283,6 +283,7 @@ form.form{position:relative;}
 .ladakh-mountain #cards_landscape_wrap-2 .card-flyer .text-box h6{margin-top: 0px;margin-bottom: 4px; font-size: 18px;font-weight: bold;text-transform: uppercase;font-family: 'Roboto Black', sans-serif;letter-spacing: 1px;color: #00acc1;}
 
 /* kashmir page  */
+.kashmir-page{background-color: #FFF7EF;}
 .kashmir-page .banner figure figcaption h1{    color: #FFF;font-family: Poppins;font-size: 60px;font-style: normal;font-weight: 700;line-height: 74.612px;letter-spacing: 1.8px;}
 .kashmir-page .banner figure figcaption p{color: #FFF;font-family: Poppins;font-size: 20px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.4px;}
 .kashmir-page .banner figure figcaption ul{display: flex;align-items: center;padding: 0;margin: 0;    height: 62.055px;}
@@ -308,8 +309,8 @@ form.form{position:relative;}
 .kashmir-page .photo-grid .column{ -ms-flex: 25%; /* IE10 */flex: 25%;max-width: 25%;padding: 0 4px;}
 .kashmir-page .photo-grid .column img{margin-top: 8px;vertical-align: middle;width: 100%;}
 .kashmir-page .photo-grid-wrapper .explore-travel h5{    color: #000;font-family: Poppins;font-size: 30px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.9px;text-align: center;margin-bottom: 0;padding-bottom: 20px;}
-.kashmir-page .footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 188px;position: absolute;bottom: -2px;z-index: 1;left: -20px;}
-.kashmir-page .footer-sec::after{content: ''; background: url('/resources/images/kashmir-footer-layer.png') no-repeat;     background-size: 100% 100%;width: 100%;height: 188px;position: absolute;bottom: 95px;z-index: 1;}
+/* .kashmir-page .footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 188px;position: absolute;bottom: -2px;z-index: 1;left: -20px;} */
+/* .kashmir-page .footer-sec::after{content: ''; background: url('/resources/images/kashmir-footer-layer.png') no-repeat;     background-size: 100% 100%;width: 100%;height: 188px;position: absolute;bottom: 95px;z-index: 1;} */
 .kashmir-page .banner ~ .content{margin-top: -210px;padding-top: 40px; background-color: #FFF7EF;}
 .kashmir-page .banner figure img{object-fit: fill;}
 @-moz-document url-prefix() {.cust-select select, .cust-select select:focus{padding: 0 30px 0 11px;}}
@@ -333,8 +334,8 @@ form.form{position:relative;}
 .kashmir-page .enquire-more .dark-text{text-transform: capitalize;}
 .kashmir-page .enquire-more b {color: #000;text-align: center;font-family: 'Poppins';font-size: 15px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: 0.3px;}
 .kashmir-page .enquire-more .light-text{    margin-bottom: 0.5rem;}
-.kashmir-page .footer-sec{background: #FAF7F3;}
-.kashmir-page .photo-grid-wrapper{background-color: #FFF7EF;height: 349px;}
+/* .kashmir-page .footer-sec{background: #FAF7F3;} */
+.kashmir-page .photo-grid-wrapper{background-color: #FFF7EF;height: 320px;    overflow: hidden;}
 .content .row .mobile-form h3 .downArrow{display: none;}
 
 /* home page css  */
@@ -362,13 +363,12 @@ form.form{position:relative;}
 .home-page .mainWrapper .card-wrapper{display: flex;justify-content: space-between;}
 
 /* new home css  */
-.home-page .home-banner{background: url(/resources/images/home-banner.png), #E6D7FF no-repeat;height: 100%;background-size: 100% 100%;width: 100%;padding-bottom: 150px;}
-.home-page .home-banner::after{content: '';background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);height: 160px;display: inherit;z-index: 1;position: absolute;width: 100%;}
+.home-page .home-banner{background: url(/resources/images/home-banner.png), #E6D7FF no-repeat;height: 100%;background-size: 100% 100%;width: 100%;padding-bottom: 50px;}
+/* .home-page .home-banner::after{content: '';background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);height: 160px;display: inherit;z-index: 1;position: absolute;width: 100%;} */
 .home-page .home-banner .dotted-circle{display: flex;justify-content: center;align-items: center;flex-direction: column;}
 .home-page .home-banner .dotted-circle .wrapper{position: relative;display: flex;flex-direction: column;align-items: center;}
 .home-page .home-banner .dotted-circle .wrapper img{position: absolute;}
 .home-page .home-banner .mainWrapper{    margin-top: 90px;}
-.home-page footer{ background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #E6D7FF 100%);z-index: 1;padding-top: 5px;margin: 0;}
 
 /* thank you page  */
 .thank-you footer{position: absolute;bottom: 0;}
@@ -460,3 +460,10 @@ img.mfp-img {width: 900px;height: 600px;display: block;line-height: 0;box-sizing
   .mfp-arrow-right {-webkit-transform-origin: 100%;transform-origin: 100%;}
   .mfp-container {padding-left: 6px;padding-right: 6px;} 
 }
+
+/* page level footer  */
+.page-level-footer{    position: relative;bottom: -120px;z-index: 1;}
+.page-level-footer .enquire-more{background: #FAF7F3;border-radius: 10px;box-shadow: 0px 0px 5px 0px #0000002e;border: 1px solid #FAF7F3;padding-bottom: 50px;}
+
+.ladakh-page{    background: #EEEDE9;}
+.thank-you .page-level-footer{position: absolute;bottom: 0;z-index: 1;left: 50%;top: 79%;transform: translate(-50%, -50%);width: 100%;}
