@@ -54,24 +54,27 @@ $(document).ready(function () {
     });
 
     // onclick video play and pause functionality 
-    // const video = document.getElementById("video");
-    // const circlePlayButton = document.getElementById("play-button");
+    const video = document.getElementById("video");
+    const circlePlayButton = document.getElementById("play-button");
+    const circlePauseButton = document.getElementById("pause-button");
 
-    // function togglePlay() {
-    //     if (video.paused || video.ended) {
-    //         video.play();
-    //     } else {
-    //         video.pause();
-    //     }
-    // }
+    function togglePlay() {
+        if (video.paused || video.ended) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
 
-    // circlePlayButton.addEventListener("click", togglePlay);
-    // video.addEventListener("playing", function () {
-    //     circlePlayButton.style.opacity = 0;
-    // });
-    // video.addEventListener("pause", function () {
-    //     circlePlayButton.style.opacity = 1;
-    // });
+    circlePlayButton.addEventListener("click", togglePlay);
+    video.addEventListener("playing", function () {
+        circlePlayButton.style.opacity = 0;
+        circlePauseButton.style.opacity = 1;
+    });
+    video.addEventListener("pause", function () {
+        circlePlayButton.style.opacity = 1;
+        circlePauseButton.style.opacity = 0;
+    });
 
 
     $('.image-popup-vertical-fit').magnificPopup({

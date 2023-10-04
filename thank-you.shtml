@@ -51,44 +51,51 @@
   </header>
   <!-- Header Ends -->
 
-  <section class="content" data-aos="fade-right" data-aos-delay="100">
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col thank-you-block">
-          <p data-aos="fade-right" data-aos-delay="100">Thank you for choosing Ladakh Mountain Tour & Travels for your
-            travel requirements.</p>
-          <p data-aos="fade-right" data-aos-delay="100">Our Leh - Ladakh expert will get in touch with you shortly.</p>
-          <div class="social-media">
-            <span>Follow us :</span>
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
-                  title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
-              </li>
-              <!-- <li>
-                <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin" target="_blank"><i class="fc-linkedin"></i></a>
-              </li> -->
-            </ul>
+  <div class="main-wrapper">
+    <section class="content" data-aos="fade-right" data-aos-delay="100">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col thank-you-block">
+            <p data-aos="fade-right" data-aos-delay="100">Thank you for choosing Ladakh Mountain Tour & Travels for your
+              travel requirements.</p>
+            <p data-aos="fade-right" data-aos-delay="100">Our Leh - Ladakh expert will get in touch with you shortly.
+            </p>
+            <div class="social-media">
+              <span>Follow us :</span>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
+                    title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
+                </li>
+                <!-- <li>
+                  <a href="https://www.instagram.com/ladakhmountaintours/" title="Instagram" target="_blank"><i class="fc-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin" target="_blank"><i class="fc-linkedin"></i></a>
+                </li> -->
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="page-level-footer">
+      <div class="container">
+        <div class="enquire-more">
+          <div class="condition-txt">*conditions apply</div>
+          <b>To know more, get in touch with our Leh - Ladakh experts</b>
+          <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
+                9419983141 </a></span></h3>
+          <p class="light-text">Our experts will respond you on all your queries.</p>
+          <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
+        </div>
+      </div>
+    </section>
+  </div>
 
   <footer class="footer-sec">
     <div class="container">
-      <div class="enquire-more">
-        <div class="condition-txt">*conditions apply</div>
-        <b>To know more, get in touch with our Kashmir experts</b>
-        <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
-              9419983141 </a></span></h3>
-        <p class="light-text">Our experts will respond you on all your queries.</p>
-        <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
-      </div>
-
       <div class="footer-link">
         <div class="visit-link">
           Visit :
@@ -104,13 +111,13 @@
                 title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
             </li>
             <li>
-              <a href="" title="what's up" target="_blank"><img src="/resources/images/common/icons/whatup-icon.svg"
-                  alt="What's up icon" /></a>
+              <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
+                  src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
             </li>
             <!-- <li>
-                            <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
-                                target="_blank"><i class="fc-linkedin"></i></a>
-                        </li> -->
+                    <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
+                        target="_blank"><i class="fc-linkedin"></i></a>
+                </li> -->
           </ul>
         </div>
       </div>
@@ -126,19 +133,11 @@
         </div>
       </div>
       <!-- <div class="copyright">
-        © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
-      </div> -->
+© Copyright Ladakh Mountain Tour & Travels. All rights reserved.
+</div> -->
     </div>
   </footer>
 
-  <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
-  <!-- footer js css and script starts -->
-  <div class="lds-ring">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
   <script src="/resources/js/jquery.min.js"></script>
   <script src="/resources/js/jquery.easing.min.js"></script>
   <script src="/resources/js/bootstrap.min.js"></script>

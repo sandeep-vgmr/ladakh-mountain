@@ -71,7 +71,7 @@
         <!-- Header Ends -->
         <section class="banner">
             <figure>
-                <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh" >
+                <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh">
                 <figcaption>
                     <h1>Glimpse of Kashmir</h1>
                     <p>Srinagar, Gulmarg, Pahalgam, Tarsar Lake</p>
@@ -105,9 +105,11 @@
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <!-- <div id="play-button"><img src="/resources/images/common/icons/play-video.svg"
-                                        alt="Play Button" /></div> -->
-                                <video autoplay playsinline loop id="video">
+                                <div id="pause-button"><img src="/resources/images/common/icons/pause-solid.svg"
+                                        alt="pause Button" title="Pause" /></div>
+                                <div id="play-button"><img src="/resources/images/common/icons/play-video.svg"
+                                        alt="Play Button" title="Play" /></div>
+                                <video playsinline loop id="video">
                                     <source src="/resources/images/kashmir-video.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -264,7 +266,7 @@
                             </div>
                         </div>
 
-                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100" >
+                        <div class="itinerary-cards col-lg-12 col-md-12" data-aos="fade-right" data-aos-delay="100">
                             <div class="img-wrapper">
                                 <img src="/resources/images/day-6.jpg" />
                             </div>
@@ -305,17 +307,18 @@
                                     <div class="cust-select">
                                         <select id="arrivalMonth">
                                             <option>Select Arrival Month</option>
-                                            <option>February 2021</option>
-                                            <option>March 2021</option>
-                                            <option>April 2021</option>
-                                            <option>May 2021</option>
-                                            <option>June 2021</option>
-                                            <option>July 2021</option>
-                                            <option>August 2021</option>
-                                            <option>September 2021</option>
-                                            <option>October 2021</option>
-                                            <option>November 2021</option>
-                                            <option>December 2021</option>
+                                            <option>August 2023</option>
+                                            <option>September 2023</option>
+                                            <option>October 2023</option>
+                                            <option>November 2023</option>
+                                            <option>December 2023</option>
+                                            <option>January 2024</option>
+                                            <option>February 2024</option>
+                                            <option>March 2024</option>
+                                            <option>April 2024</option>
+                                            <option>May 2024</option>
+                                            <option>June 2024</option>
+                                            <option>July 2024</option>
                                         </select>
                                     </div>
                                 </div>
@@ -359,7 +362,7 @@
                 <!-- Photo Grid -->
                 <div class="row mx-auto img-gallery-magnific col-xs-12 col-sm-2 col-md-12 col-lg-12">
                     <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-1.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/01-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-1.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
@@ -367,12 +370,12 @@
                     </div>
 
                     <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-2.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/02-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-2.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
                         </a>
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-5.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/03-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-5.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
@@ -380,12 +383,12 @@
                     </div>
 
                     <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-3.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/04-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-3.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
                         </a>
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-6.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/05-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-6.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
@@ -393,7 +396,7 @@
                     </div>
 
                     <div class="column magnific-img col-xs-12 col-sm-2 col-md-12 col-lg-4">
-                        <a class="image-popup-vertical-fit" href="/resources/images/explore-traval-4.png"
+                        <a class="image-popup-vertical-fit" href="/resources/images/06-kashmir-exploretravel.jpg"
                             title="Explore Traval Images">
                             <img src="/resources/images/explore-traval-4.png" alt="Explore Traval Images" />
                             <!-- <i class="fa fa-search-plus" aria-hidden="true"></i> -->
@@ -405,7 +408,7 @@
             </div>
         </section>
 
-        <footer class="footer-sec">
+        <section class="page-level-footer">
             <div class="container">
                 <div class="enquire-more">
                     <div class="condition-txt">*conditions apply</div>
@@ -413,457 +416,57 @@
                     <h3>Call : <span><a href="tel:916006943256">+91 6006943256</a>, <a href="tel:9194199 83141">+91
                                 9419983141 </a></span></h3>
                     <p class="light-text">Our experts will respond you on all your queries.</p>
-                    <p class="dark-text">Gula Chambers, Old Road, Leh Ladakh 194101</p>
-                </div>
-
-                <div class="footer-link">
-                    <div class="visit-link">
-                        Visit :
-                        <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
-                        <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
-                        <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
-                    </div>
-                    <div class="social-media">
-                        <span>Follow us :</span>
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
-                                    title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
-                                        src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
-                            </li>
-                            <!-- <li>
-                            <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
-                                target="_blank"><i class="fc-linkedin"></i></a>
-                        </li> -->
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6">
-                            © Copyright Ladakh Mountain Tour & Travels. <span>All rights reserved.</span>
-                        </div>
-                        <div class="col-md-6 text-md-right">
-                            Powered by <a href="https://www.sublimis.tech/">Sublimis - ePorium</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="copyright">
-        © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
-      </div> -->
-            </div>
-        </footer>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade thank-you" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content content">
-                <a href="#" class="btn-close" data-dismiss="modal" aria-label="Close"></a>
-                <div class="right">
-                    <h3 data-aos="fade-right" data-aos-delay="100">5 Nights / 6 Days</h3>
-                    <form class="form">
-                        <div class="mandate-txt" data-aos="fade-right" data-aos-delay="100">*mandatory fields</div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="Name">Name *</label>
-                            <input type="text" id="Name" name="Name" class="form-control" placeholder="Enter Name">
-                        </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="email">Email Id *</label>
-                            <input type="text" id="email" name="email" class="form-control"
-                                placeholder="Enter Email Id">
-                        </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="mobile">Mobile No. *</label>
-                            <input type="text" id="mobile" name="mobile" class="form-control"
-                                placeholder="Enter 10 Digit Mobile No.">
-                        </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="arrivalMonth">Arrival Month *</label>
-                            <div class="cust-select">
-                                <select id="arrivalMonth">
-                                    <option>Select Arrival Month</option>
-                                    <option>February 2021</option>
-                                    <option>March 2021</option>
-                                    <option>April 2021</option>
-                                    <option>May 2021</option>
-                                    <option>June 2021</option>
-                                    <option>July 2021</option>
-                                    <option>August 2021</option>
-                                    <option>September 2021</option>
-                                    <option>October 2021</option>
-                                    <option>November 2021</option>
-                                    <option>December 2021</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="noofpax">No. Of Pax *</label>
-                            <div class="cust-select">
-                                <select id="noofpax">
-                                    <option>Select No. Of Pax</option>
-                                    <option>2</option>
-                                    <option>Between 3 to 5</option>
-                                    <option>Between 5 to 10</option>
-                                    <option>10 and more</option>
-                                    <option>20 and more</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control"></textarea>
-                        </div>
-                        <!-- <div class="form-group" data-aos="fade-right" data-aos-delay="100">
-                            <label for="captcha">Captcha *</label>
-                            <div class="row row-sm align-items-center">
-                                <div class="col-auto">80 + 9 =</div>
-                                <div class="col"><input type="text" id="captcha" name="captcha" class="form-control"
-                                        placeholder="Enter Your Answer"></div>
-                            </div>
-                        </div> -->
-                        <div class="btn-block" data-aos="fade-right" data-aos-delay="100">
-                            <a href="thank-you.shtml" class="btn btn-primary">Send Query</a>
-                        </div>
-                    </form>
+                    <p class="dark-text">3 floor cool space complex Near Hotel Apna Ghar Munawara Abad Khayam road
+                        Srinagar</p>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
-    <!-- Itinerary Modal -->
-    <div class="modal fade common" id="detailItinerary1" tabindex="0" aria-labelledby="detailItinerary1Label"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content content">
-                <a href="#" class="btn-close" data-dismiss="modal" aria-label="Close"></a>
-                <div class="right">
-                    <h2 data-aos="fade-bottom" data-aos-delay="100" class="aos-init aos-animate">05 Nights / 06 Days
-                    </h2>
-                    <ul class="itinerary">
+    <footer class="footer-sec">
+        <div class="container">
+            <div class="footer-link">
+                <div class="visit-link">
+                    Visit :
+                    <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
+                    <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
+                    <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
+                </div>
+                <div class="social-media">
+                    <span>Follow us :</span>
+                    <ul>
                         <li>
-                            <h3>Arrival - Shanti Stupa, Leh Palace & Central Asian Museum</h3>
-                            <p>Leh by flight, you will meet our representative at airport and transfer to Hotel,
-                                traditional welcome
-                                at the hotel with Khataks and welcome tea and coffee. Full day rest to get acclimatized
-                                to the high
-                                altitude of 3524 Meters (11,500 ft). Later in the evening visit Shanti Stupa and Leh
-                                Bazar for
-                                orientation. Dinner and Overnight at hotel.</p>
+                            <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
+                                title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
                         </li>
                         <li>
-                            <h3>Monastery Tour (Shey Palace, Thiksey & Hemis Monastery)</h3>
-                            <p>Full day sightseeing tour of <i>Shey Palace, Sindhu Ghat, Thiksey and Hemis
-                                    Monastery</i>, (museum &
-                                royal
-                                residence). Hemis is situated 45 Km west of Ladakh, Hemis Monastery is one of the most
-                                wealthiest and
-                                largest monastery of ladakh later drive back from the same route to visit Thiksay
-                                Monastery which is
-                                famous for its gigantic statue of Materaya lastly we visit Shey Palace the summer hub of
-                                Namgyal Dynasty
-                                kings . Dinner & overnight at Hotel.</p>
+                            <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
+                                    src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
                         </li>
-                        <li>
-                            <h3>Leh - Nubra (125 Kms)</h3>
-                            <p>After early breakfast drive for <b>Nubra Valley</b> at early as possible, which is 135 km
-                                from Leh
-                                enroute through the world highest accessible road <b>Khardong</b> La(18,379 ft). Reach
-                                Diskit
-                                (headquarter of Nubra valley) by noon and check in at the hotel/camp and have Hot lunch.
-                                Evening visit
-                                Diskit Monastery, and Sand dunes in Hunder Village 7km from Diskit and take a ride of
-                                Double Humped
-                                bacterian Camels. Dinner and overnight at hotel/camp.</p>
-                        </li>
-                        <li>
-                            <h3>Nubra - Leh (125 Kms)</h3>
-                            <p>After breakfast visit Summur Monastery and Panamik village (hot water spiring). Later
-                                drive back to Leh
-                                from the same route crossing Khardong La Pass reach back by the afternoon, check in at
-                                hotel and have
-                                hot lunch in hotel. Evening free for leisure and explore the local MARKET. Dinner and
-                                overnight at
-                                Hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Leh - Pangong - Leh (300 Kms)</h3>
-                            <p>After early breakfast drive for <b>Pangong Lake</b> which is 149Km from Leh enriute
-                                through Changla
-                                Pass which is third highest mountain motrable pass in the world. The Lake is situated at
-                                the height of
-                                4350 meters (14270 ft) in the Changthang region of Leh district. The lake is hardly six
-                                to seven
-                                kilometer at its widest point and over 130km long, it is bisected by the international
-                                border between
-                                India and China.later drive back to Leh from the same route. Dinner and overnight at
-                                hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Tour Ends</h3>
-                            <p>After early breakfast transfer to Kushok Bakula Leh airport for the return flight.</p>
-                        </li>
+                        <!-- <li>
+                        <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
+                            target="_blank"><i class="fc-linkedin"></i></a>
+                    </li> -->
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="modal fade common" id="detailItinerary2" tabindex="0" aria-labelledby="detailItinerary2Label"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content content">
-                <a href="#" class="btn-close" data-dismiss="modal" aria-label="Close"></a>
-                <div class="right">
-                    <h2 data-aos="fade-bottom" data-aos-delay="100" class="aos-init aos-animate">06 Nights /07 Days</h2>
-                    <ul class="itinerary">
-                        <li>
-                            <h3>Arrival - Leh</h3>
-                            <p>Arrival Leh by flight, you will meet our representative at airport and transfer to Hotel,
-                                traditional
-                                welcome at the hotel with Khataks and welcome tea and coffee. Full day rest to get
-                                acclimatized to the
-                                high altitude of 3524 Meters (11,500 ft). Later in the evening visit Shanti Stupa and
-                                Leh Bazar for
-                                orientation. Dinner and Overnight at hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Monastery Tour (Shey Palace, Thiksey & Hemis Monastery)</h3>
-                            <p>Full day sightseeing tour of <i>Shey Palace, Sindhu Ghat, Thiksey and Hemis
-                                    Monastery</i>, (museum &
-                                royal
-                                residence). Hemis is situated 45 Km west of Ladakh, Hemis Monastery is one of the most
-                                wealthiest and
-                                largest monastery of ladakh later drive back from the same route to visit Thiksay
-                                Monastery which is
-                                famous for its gigantic statue of Materaya lastly we visit Shey Palace the summer hub of
-                                Namgyal Dynasty
-                                kings. Dinner & overnight at Hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Leh - Lamayuru</h3>
-                            <p>Leave bit early after breakfast drive for Ulletokpa on the Srinagar - Leh Highway(Nh1) on
-                                the way
-                                visiting Sangam(confluence of 02 rivers, Indus and zanskar) Alchi Monastery founded in
-                                11<sup>th</sup>
-                                century is largest and most famous and of all temples built by great translator Richen
-                                Zangpo and later
-                                continue drive to Ulleetokpo, reach Ulletokpo by evening, check in at the camp. Dinner
-                                and overnight at
-                                Camp.</p>
-                        </li>
-                        <li>
-                            <h3>Leh - Lamayuru</h3>
-                            <p>After early breakfast drive for Lamayuru which is one of the oldest monastery of Ladakh
-                                and it is
-                                located 127 Km from Leh. The monastery was founded in 10<sup>th</sup> Century but later
-                                great translator
-                                Rinchen
-                                Zangpo built many temples and stupas. The monastery is famous for its rich wall
-                                paintings, collection of
-                                Thankas, Murals, scriptures and Statues of different forms of Buddha and other Buddhist
-                                Dities. Beside
-                                monastery Lamayuru also attracts tourist for its Landscape quite similar to the Lunar
-                                Terrain Later
-                                drive back to Leh from the same route reach Leh by evening. Dinner and overnight at
-                                Hotel.
-                            </p>
-                        </li>
-                        <li>
-                            <h3>Leh - Pangong - Leh</h3>
-                            <p>After early breakfast drive for <b>Pangong Lake</b> which is 149Km from Leh enriute
-                                through Changla
-                                Pass which is third highest mountain motrable pass in the world. The Lake is situated at
-                                the height of
-                                4350 meters (14270 ft) in the Changthang region of Leh district. The lake is hardly six
-                                to seven
-                                kilometer at its widest point and over 130km long, it is bisected by the international
-                                border between
-                                India and China. Later drive back to Leh from the same route. Dinner and overnight at
-                                hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Leh - Kahrdong La</h3>
-                            <p>After breakfast drive for <b>Kahrdong La</b> Pass 40 Km from Leh, which is believed to be
-                                world highest
-                                vehicle accessible pass in the world. Enjoy panoramic views of the Indus valley and the
-                                Stok Khangri
-                                range as you drive back, lunch at the hotel, followed by a shopping tour of Leh Bazaar.
-                                Dinner &
-                                Overnight at Hotel.
-                            </p>
-                        </li>
-                        <li>
-                            <h3>Tour Ends</h3>
-                            <p>After early breakfast transfer to Kushok Bakula Leh airport for the return flight. Tour
-                                concludes.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade common" id="detailItinerary3" tabindex="0" aria-labelledby="detailItinerary3Label"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content content">
-                <a href="#" class="btn-close" data-dismiss="modal" aria-label="Close"></a>
-                <div class="right">
-                    <h2 data-aos="fade-bottom" data-aos-delay="100" class="aos-init aos-animate">07 Nights / 08 Days
-                        Majestic
-                        Nubra & Pangong </h2>
-                    <ul class="itinerary">
-                        <li>
-                            <h3>Arrival - Shanti Stupa, Leh Palace & Central Asian Museum</h3>
-                            <p>Leh by flight, you will meet our representative at airport and transfer to Hotel,
-                                traditional welcome
-                                at the hotel with Khataks and welcome tea and coffee. Full day rest to get acclimatized
-                                to the high
-                                altitude of 3524 Meters (11,500 ft). Later in the evening visit Shanti Stupa and Leh
-                                Bazar for
-                                orientation. Dinner and Overnight at hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Monastery Tour (Shey Palace, Thiksey & Hemis Monastery)</h3>
-                            <p>Full day sightseeing tour of <i>Shey Palace, Sindhu Ghat, Thiksey and Hemis
-                                    Monastery</i>, (museum &
-                                royal residence). Hemis is situated 45 Km west of Ladakh, Hemis Monastery is one of the
-                                most wealthiest
-                                and largest monastery of ladakh later drive back from the same route to visit Thiksay
-                                Monastery which is
-                                famous for its gigantic statue of Materaya lastly we visit Shey Palace the summer hub of
-                                Namgyal Dynasty
-                                kings . Dinner & overnight at Hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Leh- Nubra (125 Kms)</h3>
-                            <p>After early breakfast drive for <b>Nubra Valley</b> at early as possible, which is 135 km
-                                from Leh
-                                enroute through the world highest accessible road <b>Khardong</b> La(18,379 ft). Reach
-                                Diskit
-                                (headquarter of Nubra valley) by noon and check in at the hotel/camp and have Hot lunch.
-                                Evening visit
-                                Diskit Monastery, and Sand dunes in Hunder Village 7km from Diskit and take a ride of
-                                Double Humped
-                                bacterian Camels. Dinner and overnight at hotel/camp.</p>
-                        </li>
-                        <li>
-                            <h3>Nubra- Leh (125 Kms)</h3>
-                            <p>After breakfast visit Summur Monastery and Panamik village (hot water spiring). Later
-                                drive back to Leh
-                                from the same route crossing Khardong La Pass reach back by the afternoon, check in at
-                                hotel and have
-                                hot lunch in hotel. Evening free for leisure and explore the local MARKET. Dinner and
-                                overnight at
-                                Hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Leh - Pangong (149 Kms)</h3>
-                            <p>After early breakfast drive for <b>Pangong Lake</b> which is 149Km from Leh enriute
-                                through Changla
-                                Pass which is third highest mountain motrable pass in the world. The Lake is situated at
-                                the height of
-                                4350 meters (14270 ft) in the Changthang region of Leh district. The lake is hardly six
-                                to seven
-                                kilometer at its widest point and over 130km long, it is bisected by the international
-                                border between
-                                India and China. The Saline water Lake is at the height of 4,350 m (14,270 ft) and has a
-                                brilliant color
-                                variation including deep blue and turquoise. Dinner and overnight at hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Pangong - Leh (149 Kms)</h3>
-                            <p>Leave <b>Pangong</b> after breakfast and drive back towards Leh from the same route. At
-                                the Karu road
-                                junction, drive across the Indus and take the road to Hemis, visit the famous
-                                17<sup>th</sup> century
-                                <i>Hemis Monastery which is one of the largest and wealthiest monastery in Ladakh</i>.
-                                From same
-                                junction of kharu
-                                drive back to Leh. Dinner and overnight at the hotel.
-                            </p>
-                        </li>
-                        <li>
-                            <h3>Nature Tour (Sangam, Magnetic Hill, Gurduwara Pathar Sahaib)</h3>
-                            <p>After breakfast drive towards east of ladakh on Srinagar - Leh Highway (NH1) to visit
-                                Sangam which is
-                                the confluence of 02 Rivers Indus River and Zanskar River than on the way back visit
-                                Magnetic Hill (the
-                                hill that defies the gravity) and later to 12<sup>th</sup> Century Gurduwara Pather
-                                Sahib. Evening free
-                                to explore
-                                the market. Dinner and overnight at hotel.</p>
-                        </li>
-                        <li>
-                            <h3>Tour Concludes</h3>
-                            <p>After early breakfast transfer to Kushok Bakula Leh airport for the return flight.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- image grid gallery modal -->
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Swiper -->
-                    <div class="swiper-container" data-swiper="init" data-grab-cursor="true" data-effect="coverflow"
-                        data-centered-slides="true" data-slides-per-view="auto" data-free-mode="false"
-                        data-coverflow-effect: '{"rotate": 50, "stretch": 0, "depth": 100, "modifier": 1, "slideShadows" : true, }'>
-                        <div class="swiper-wrapper pb-2">
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
-                            <div class="swiper-slide"
-                                style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        © Copyright Ladakh Mountain Tour & Travels. <span>All rights reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        Powered by <a href="https://www.sublimis.tech/">Sublimis - ePorium</a>
                     </div>
                 </div>
             </div>
+            <!-- <div class="copyright">
+    © Copyright Ladakh Mountain Tour & Travels. All rights reserved.
+  </div> -->
         </div>
-    </div>
+    </footer>
 
-    <!-- Itinerary Modal -->
-    <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
-    <!-- footer js css and script starts -->
-    <div class="lds-ring">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
     <script src="/resources/js/jquery.min.js"></script>
     <script src="/resources/js/jquery.easing.min.js"></script>
     <script src="/resources/js/bootstrap.min.js"></script>
@@ -872,7 +475,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-   
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPL8ZKF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <script>
         var mySwiper = new Swiper('.swiper-container', {
             slidesPerView: 4,

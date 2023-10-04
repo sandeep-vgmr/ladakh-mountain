@@ -1,4 +1,5 @@
 @media (min-width: 1441px) and (max-width: 2560px) {
+    /* .home-page .home-banner{height: 160vh;} */
 }
 
 @media screen and (min-width: 1280px) {
@@ -6,7 +7,8 @@
 @media screen and (max-width: 1280px) {
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1160px) {
+    /* .home-page .home-banner{height: 160vh;} */
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,7 +30,7 @@
     .kashmir-page .content h5{padding: 0;}
     .kashmir-page .photo-grid{height: 229px;margin-right: 0;}
     .kashmir-page .content .explore-travel h5{    font-size: 27px;font-weight: 500;padding-bottom: 7px}
-    .content .row .mobile-form {position: fixed;width: 100%;left: 0;z-index: 9;transition: all .5s ease-in;height: 42px;padding: 0;overflow: hidden;bottom: 0;text-align: center;}
+    .content .row .mobile-form {position: fixed;max-width: 100%;left: 0;z-index: 9;transition: all .5s ease-in;height: 42px;padding: 0;overflow: hidden;bottom: 0;text-align: center;}
     .content .row .mobile-form.openUp{height: 100vh;}
     .content .row .mobile-form .right{width: 100%;height: 100%;border-radius: 0; padding: 0;}
     /* .kashmir-page .content .row h3{padding: 10px;background: #9A2E00;color: #fff;} */
@@ -40,8 +42,14 @@
     .banner ~ .content{margin-top: -3px;position: relative;}
     .home-page .mainWrapper .card-wrapper{flex-direction: column;width: 100%;}
     .home-page .mainWrapper .cards{width: 100%;margin-bottom: 5rem;}
-    .home-page .home-banner{ height: 100%;background-size: cover;}
+    .home-page .home-banner{ height: 100%;background-size: cover;    padding-bottom: 0;}
     .home-page .home-banner::after{    background: none;}
+    .kashmir-page .photo-grid-wrapper{    height: 223px;}
+    .footer-sec{    padding-bottom: 45px;}
+    .logo-bar .contact-num ul.callBlock li:nth-child(2) a{padding-left: 0;}
+    img.mfp-img{    width: 700px;height: 560px;}
+    button.mfp-close, button.mfp-arrow{    opacity: 1 !important;}
+    .page-level-footer{bottom: -90px;}
 }
 
 @media screen and (max-width: 991px) {
@@ -57,10 +65,10 @@
     .content .right{margin-bottom: 40px;}
     .thank-you-block{width: 90%;max-width: 90%;padding: 10px;margin: 40px auto;}
     .enquire-more{margin-bottom: 0;padding-bottom: 0;}
-    .footer-link{display:block;margin-bottom: 10px;}
-    .social-media{margin-top:20px;}
+    .footer-link{display:flex;margin-bottom: 10px;}
     .enquire-more .light-text{margin-bottom:0;}
     .visit-link{padding-bottom: 10px;display:block;}
+    .page-level-footer{    bottom: -65px;}
 }
 
 @media screen and (max-width: 599px) {
@@ -104,29 +112,58 @@
     .kashmir-page .enquire-more{    padding: 10px;}
     .kashmir-page .enquire-more b{font-size: 12px;}
     .kashmir-page .enquire-more .light-text{    font-size: 13px;}
-    .kashmir-page .footer-sec::before{width: 107%;height: 140px; bottom: 0;}
-    .kashmir-page .footer-sec::after{    height: 142px;bottom: 70px;}
+    .kashmir-page .footer-sec::before{width: 107%;height: 185px;}
+    .kashmir-page .footer-sec::after{    height: 142px;bottom: 95px;}
     form .form-group + .form-group{    margin-top: 10px;}
     .content .row .mobile-form h3{padding: 5px; margin-bottom: 0;}
     .content .row .mobile-form .mandate-txt{top: 5px;}
     .content .row .mobile-form{height: 35px;}
     .logo-bar .contact-num ul.callBlock{    margin-top: 35px;}
     .home-page .home-banner .dotted-circle .wrapper img{width: 100%;}
-    .home-page .home-banner figure figcaption{    padding-top: 200px;    font-size: 75px;}
+    .home-page .home-banner figure figcaption{    padding-top: 90px;    font-size: 75px;}
     .home-page .home-banner .mainWrapper{    padding: 0 10px;}
     .home-page .mainWrapper .cards .row .cards-content h5{left: 5px;top: 85px;font-size: 45px;}
     .home-page .mainWrapper .cards .row .cards-content h5 span{ font-size: 45px;line-height: 90px;}
-    
+    .social-media ul li a i,
+    .social-media ul li a img{    width: 35px;height: 35px;}
+    .magnific-img{flex: 50%;max-width: 50%;}
+    .kashmir-page .photo-grid-wrapper{    height: 390px;}
+    .copyright{    font-size: 11px;}
+    .logo-bar .contact-num ul.callBlock li.emailBlock{margin-right: 30px;}
+    .logo-bar .contact-num ul.callBlock li{    margin-right: 20px;}
+    .logo-bar .contact-num ul.callBlock li:nth-child(2) a{padding-left: 0;}
+    img.mfp-img{    width: 100%; height: 100%;}
+    .page-level-footer{bottom: -120px;}
+    .page-level-footer .enquire-more{padding-bottom: 40px;}
+    .enquire-more .light-text,.enquire-more .dark-text{font-size: 12px;}
+    .footer-sec{    padding-top: 110px;height: 250px;}
+    .footer-sec::before{width: 110%;    height: 200px;    bottom: -3px;}
+    .social-media{text-align: right; margin-bottom: 0;}
+    .social-media{text-align: right; margin-bottom: 0;display: flex;}
+    .kashmir-page .footer-sec{padding-top: 80px;}
+    .kashmir-page .page-level-footer .enquire-more{    padding-bottom: 55px;}
+    .ladakh-page .footer-sec{padding-top: 80px;}
+    .page-level-footer .enquire-more{    padding-bottom: 50px;}
+    .ladakh-page .banner{    height: 340px;}
+    .content .package-listing > li .details h2{    font-size: 20px;}
+    .content .package-listing > li figure{    height: 200px;}
+    .content .package-listing > li .details p{font-size: 12px;}
+    .content .package-listing > li .details .amt{    font-size: 25px;}
+    .content .package-listing > li .details .price a{    padding: 5px;font-size: 12px;}
+    .thank-you-block{font-size: 14px;}
+    .thank-you-block .social-media{    display: flex;justify-content: center;}
+    .thank-you .page-level-footer{      top: 68%;}
+    .thank-you .enquire-more .condition-txt{    top: -23px;}
 }
 
 @media screen and (max-width: 576px) {
-    .banner figcaption{font-size: 80px;}
+    .banner figcaption{font-size: 60px;}
     .banner figcaption > span{font-size:16px;}
     .visit-link a{display:block;}
     .visit-link a + a{display:block;padding:0; margin:0; border:0;}
     .visit-link{display:block;width:100%;/* margin-bottom: 25px; */}
     .social-media{display:block;width:100%;margin-top: 0;}
-    .footer-link{display: block;margin-bottom: 13px;}
+    .footer-link{display: flex;margin-bottom: 13px;}
     .enquire-more h3{font-size: 18px;}
     .enquire-more h3 > span{font-size: 18px;}
     .enquire-more .light-text{margin: 0;line-height: normal; margin-bottom: 6px;}
@@ -140,10 +177,8 @@
 }
 
 @media screen and (max-width: 375px) {
-    .copyright{margin-bottom: 5px;}
+    /* .copyright{margin-bottom: 5px;}
     .social-media{margin-bottom: 30px;}
-    .banner figcaption{font-size: 70px;}
+    .banner figcaption{font-size: 70px;} */
 }
 
-@media screen and (max-width: 320px) {
-}
