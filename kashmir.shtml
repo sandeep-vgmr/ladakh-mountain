@@ -72,7 +72,7 @@
                         </div>
                         
                         <div class="right">
-                            <h3 class="headingForm">Request A Call Back <img src="/resources/images/angle-up-solid.svg"
+                            <h3 class="headingForm">Book this Package <img src="/resources/images/angle-up-solid.svg"
                                     alt="down arrow" class="downArrow" /></h3>
                             <form class="form">
                                 <div class="mandate-txt">*mandatory
@@ -378,7 +378,7 @@
 
                     <div class="col-lg-4 col-md-12 mobile-form mob-form">
                         <div class="right">
-                            <h3 class="headingForm">Request A Call Back <img src="/resources/images/angle-up-solid.svg"
+                            <h3 class="headingForm">Book This Package <img src="/resources/images/angle-up-solid.svg"
                                     alt="down arrow" class="downArrow" /></h3>
                             <form class="form">
                                 <div class="mandate-txt">*mandatory
@@ -592,7 +592,7 @@
             slidesPerView: 4,
             loop: true,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:2000,
             centeredSlides: true,
             effect: 'coverflow',
             noSwiping: true,

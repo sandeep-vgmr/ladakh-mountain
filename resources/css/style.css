@@ -214,7 +214,7 @@ form .btn-login:hover > span:before{ right:-20px; opacity: 1;}
 form .btn-block {text-align: center;margin-top: 20px;}
 form .btn-block .btn{width: 100%; display: block;}
 form.form{position:relative;}
-.mandate-txt{position: absolute;right: 0;top: -20px;width: 100%;text-align: right;font-size:12px; color:rgb(27 33 52 / 0.6)}
+.mandate-txt{position: absolute;right: 0;top: -20px;width: 100%;text-align: right;font-size:12px; color:rgb(27 33 52 / 0.6);text-transform: capitalize;}
 
 .footer-sec{ background: none;z-index: 2;margin: 0;padding-top: 50px;margin-top: -20px;position: relative;display: flex;width: 100%;overflow: hidden;height: 191px;padding-top: 110px;}
 .footer-sec::before{content: ''; background: url('/resources/images/footer-kahmir-page.png') no-repeat; background-size: 100% 100%;width: 103%;height: 200px;position: absolute;bottom: -3px;z-index: 1;left: -30px;}
@@ -471,12 +471,12 @@ img.mfp-img {width: 900px;height: 600px;display: block;line-height: 0;box-sizing
 .kashmir-page .banner figure img.downArrow{display: none;}
 .banner figcaption.content {background: transparent;text-align: left;width: 100%;padding-top: 0;}
 .banner figcaption.content .left {width: 50%;}
-.banner figcaption.content .right {width: 40%;}
+.banner figcaption.content .right {width: 36%;}
 .banner figcaption.content .right h3.headingForm {color: #000;font-family: Poppins;font-size: 20px;font-weight: 500;text-transform: capitalize;}
-.banner figcaption.content form .form-group > label {text-transform: none;margin-bottom: 2px;}
+.banner figcaption.content form .form-group > label {text-transform: none;margin-bottom: 6px;font-weight: 500;}
 .banner figcaption.content form .form-group + .form-group {margin-top: 10px;}
-.banner figcaption.content .d-flex {align-items: center;justify-content: center;}
+.banner figcaption.content .d-flex {align-items: center;justify-content: space-between;}
 header .logo-bar a.logo:focus-visible {outline: none;}
 header .logo-bar a.logo:hover {color:#9A2E00;}
 .mob-form {display: none;}
-a.logo h3 {margin:0;}
+a.logo h3 {margin:0;text-transform: uppercase;color: #736458;}
