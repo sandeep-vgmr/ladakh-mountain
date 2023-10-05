@@ -21,7 +21,7 @@
     .kashmir-page .banner{height: 600px;}
     .kashmir-page .banner figure img{    object-fit: cover;}
     /* .kashmir-page .banner figcaption{width: 100%; top: 45%;height: 100%;} */
-    .kashmir-page .banner figure figcaption h1{    font-size: 50px;}
+    .kashmir-page .banner figure figcaption h1{font-size: 50px;line-height: normal;}
     .kashmir-page .banner figure figcaption ul li:first-child h2{font-size: 20px;margin-top: 20px;}
     .kashmir-page .banner figure figcaption ul{justify-content: center;}
     .kashmir-page .swiper-container{    height: 330px;}
@@ -70,7 +70,7 @@
     /* .logo-bar .contact-num .callBlock a:first-child:before{top:2px} */
     .logo-bar .contact-num .emailBlock a:before{top:-7px}
     .page-level-footer .enquire-more .right {padding-left: 2rem;}
-    .banner figcaption.content .right {margin-bottom: 0;}
+    .banner figcaption.content .right {margin-bottom: 0;width: 48%;}
 }
 
 @media screen and (max-width: 768px) {
@@ -80,7 +80,7 @@
     .footer-link{display:flex;margin-bottom: 10px;}
     .enquire-more .light-text{margin-bottom:0;}
     .visit-link{padding-bottom: 10px;display:block;}
-    .page-level-footer{    bottom: -65px;}
+    .page-level-footer{bottom: -65px;}
 }
 
 @media screen and (max-width: 599px) {

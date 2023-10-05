@@ -471,11 +471,11 @@ img.mfp-img {width: 900px;height: 600px;display: block;line-height: 0;box-sizing
 .kashmir-page .banner figure img.downArrow{display: none;}
 .banner figcaption.content {background: transparent;text-align: left;width: 100%;padding-top: 0;}
 .banner figcaption.content .left {width: 50%;}
-.banner figcaption.content .right {width: 50%;}
+.banner figcaption.content .right {width: 40%;}
 .banner figcaption.content .right h3.headingForm {color: #000;font-family: Poppins;font-size: 20px;font-weight: 500;text-transform: capitalize;}
 .banner figcaption.content form .form-group > label {text-transform: none;margin-bottom: 2px;}
 .banner figcaption.content form .form-group + .form-group {margin-top: 10px;}
-.banner figcaption.content .d-flex {align-items: center;}
+.banner figcaption.content .d-flex {align-items: center;justify-content: center;}
 header .logo-bar a.logo:focus-visible {outline: none;}
 header .logo-bar a.logo:hover {color:#9A2E00;}
 .mob-form {display: none;}
