@@ -24,6 +24,14 @@
     <!-- swiper slider css cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/css/swiper.min.css" />
     <!-- header css and script ends -->
+
+     <!-- Google Tag Manager -->
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WPL8ZKF');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body class="kashmir-page">
@@ -50,11 +58,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- Header Ends -->
+        </header>
 
-    <div class="main-wrapper">
+        <!-- Header Ends -->
         <section class="banner">
             <figure>
                 <img src="/resources/images/kashmir-banner.jpg" alt="Ladakh" title="Ladakh">
