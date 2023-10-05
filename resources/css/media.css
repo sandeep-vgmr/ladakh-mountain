@@ -20,7 +20,7 @@
     /* kashmir page css  */
     .kashmir-page .banner{height: 600px;}
     .kashmir-page .banner figure img{    object-fit: cover;}
-    .kashmir-page .banner figcaption{width: 100%; top: 45%;}
+    /* .kashmir-page .banner figcaption{width: 100%; top: 45%;height: 100%;} */
     .kashmir-page .banner figure figcaption h1{    font-size: 50px;}
     .kashmir-page .banner figure figcaption ul li:first-child h2{font-size: 20px;margin-top: 20px;}
     .kashmir-page .banner figure figcaption ul{justify-content: center;}
@@ -31,12 +31,20 @@
     .kashmir-page .photo-grid{height: 229px;margin-right: 0;}
     .kashmir-page .content .explore-travel h5{    font-size: 27px;font-weight: 500;padding-bottom: 7px}
     .content .row .mobile-form {position: fixed;max-width: 100%;left: 0;z-index: 9;transition: all .5s ease-in;height: 42px;padding: 0;overflow: hidden;bottom: 0;text-align: center;}
+    .banner figcaption.content .right.mobile-form {position: fixed;max-width: 100%;right: 0;z-index: 9;transition: all .5s ease-in;height: 42px;padding: 0;
+        overflow: hidden;bottom: 0;text-align: center;width: auto;border-radius: 0;margin:0;}
     .content .row .mobile-form.openUp{height: 100vh;}
+    .banner figcaption.content .right.mobile-form.openUp{width: 100%;height: 100vh;padding:1rem;top:3rem;}
     .content .row .mobile-form .right{width: 100%;height: 100%;border-radius: 0; padding: 0;}
     /* .kashmir-page .content .row h3{padding: 10px;background: #9A2E00;color: #fff;} */
     .content .row .mobile-form h3{padding: 10px;background: #9A2E00;color: #fff;display: flex;justify-content: center;align-items: center;}
     .content .row .mobile-form h3 .downArrow{display: block; width: 15px; filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(188deg) brightness(105%) contrast(100%);    margin-left: 10px;}
     .content .row .mobile-form h3 .downArrow.rotateArrow{transform: rotate(180deg);}
+
+    .banner figcaption.content .right.mobile-form h3{padding: 10px;background: #9A2E00;color: #fff;display: flex;justify-content: center;align-items: center;}
+    .banner figcaption.content .right.mobile-form h3 .downArrow{display: block; width: 15px; filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(188deg) brightness(105%) contrast(100%);    margin-left: 10px;}
+    .banner figcaption.content .right.mobile-form h3 .downArrow.rotateArrow{transform: rotate(180deg);}
+
     .content .row .mobile-form .right form{padding: 13px 20px 20px 20px;}
     .content .row .mobile-form .mandate-txt{    right: 22px;top: -5px;}
     .banner ~ .content{margin-top: -3px;position: relative;}
@@ -50,6 +58,8 @@
     img.mfp-img{    width: 700px;height: 560px;}
     button.mfp-close, button.mfp-arrow{    opacity: 1 !important;}
     .page-level-footer{bottom: -90px;}
+    /* .banner figcaption.content .left {width: 100%;text-align: center;top:50%;transform: translateY(-50%);margin-top: 8rem;}
+    .banner figcaption.content .d-flex {height: 100%;} */
 }
 
 @media screen and (max-width: 991px) {
@@ -59,6 +69,8 @@
     .logo-bar .contact-num a{font-size: 14px;overflow-wrap: anywhere;}
     /* .logo-bar .contact-num .callBlock a:first-child:before{top:2px} */
     .logo-bar .contact-num .emailBlock a:before{top:-7px}
+    .page-level-footer .enquire-more .right {padding-left: 2rem;}
+    .banner figcaption.content .right {margin-bottom: 0;}
 }
 
 @media screen and (max-width: 768px) {
@@ -84,9 +96,9 @@
     .kashmir-page .swiper-slide .img-slide #play-button img{    width: 36.33px;height: 41.148px;}
     /* kashmir page css  */
     .kashmir-page .banner figure img{object-fit: cover;}
-    .kashmir-page .banner{height: 510px;}
+    .kashmir-page .banner{height: 300px;}
     .kashmir-page .banner figure img{object-fit: cover;}
-    .kashmir-page .swiper-slider-warpper{top: -50px;}
+    .kashmir-page .swiper-slider-warpper{top: 15px;}
     .kashmir-page .banner figure figcaption h1{     font-size: 26px;line-height: 40px;}
     .kashmir-page .banner figure figcaption p{  font-size: 12px;margin-bottom: 3px;}
     .kashmir-page .banner figure figcaption ul{flex-wrap: wrap;justify-content: center;}
@@ -98,7 +110,7 @@
     .kashmir-page .banner figure figcaption ul li span{    font-size: 14px;}
     .kashmir-page .banner figure figcaption ul li h2{    font-size: 25px; margin-top: 5px;}
     .kashmir-page .swiper-container{ height: 300px;}
-    .kashmir-page .banner ~ .content{ margin-top: -60px; padding-top: 20px;}
+    .kashmir-page .banner ~ .content{ margin-top: 0px; padding-top: 20px;}
     .kashmir-page .content h5{padding: 10px;font-size: 12px;line-height: 20px;margin-bottom: 1rem;font-weight: 400;}
     .content .row .mobile-form h3{    font-size: 15px; }
     .kashmir-page .content .row .itinerary-cards{    flex-direction: column; padding-right: 0;}
@@ -141,7 +153,8 @@
     .social-media{text-align: right; margin-bottom: 0;}
     .social-media{text-align: right; margin-bottom: 0;display: flex;}
     .kashmir-page .footer-sec{padding-top: 80px;}
-    .kashmir-page .page-level-footer .enquire-more{    padding-bottom: 55px;}
+    .kashmir-page .page-level-footer .enquire-more{padding-bottom: 55px;display: block;}
+    .kashmir-page .page-level-footer .enquire-more .right {padding-left: 0;}
     .ladakh-page .footer-sec{padding-top: 80px;}
     .page-level-footer .enquire-more{    padding-bottom: 50px;}
     .ladakh-page .banner{    height: 340px;}
@@ -154,6 +167,9 @@
     .thank-you-block .social-media{    display: flex;justify-content: center;}
     .thank-you .page-level-footer{      top: 68%;}
     .thank-you .enquire-more .condition-txt{    top: -23px;}
+    .mob-form {display: block;}
+    .banner figcaption.content .right {display: none;}
+    .banner figcaption.content .left {width: 100%;text-align: center;}
 }
 
 @media screen and (max-width: 576px) {
