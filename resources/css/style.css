@@ -470,7 +470,7 @@ img.mfp-img {width: 900px;height: 600px;display: block;line-height: 0;box-sizing
 .thank-you .page-level-footer{position: absolute;bottom: 0;z-index: 1;left: 50%;top: 79%;transform: translate(-50%, -50%);width: 100%;}
 .kashmir-page .banner figure img.downArrow{display: none;}
 .banner figcaption.content {background: transparent;text-align: left;width: 100%;padding-top: 0;}
-.banner figcaption.content .left {width: 50%;}
+.banner figcaption.content .left {width: 60%;}
 .banner figcaption.content .right {width: 36%;}
 .banner figcaption.content .right h3.headingForm {color: #000;font-family: Poppins;font-size: 20px;font-weight: 500;text-transform: capitalize;}
 .banner figcaption.content form .form-group > label {text-transform: none;margin-bottom: 6px;font-weight: 500;}
