@@ -184,31 +184,54 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/slider-2.png" alt="slider-1" />
+                                <img src="/resources/images/slide1.jpg" alt="slider-1" />
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/slider-3.png" alt="slider-1" />
+                                <img src="/resources/images/slide2.jpg" alt="slider-1" />
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/slider-4.png" alt="slider-1" />
+                                <img src="/resources/images/slide3.jpg" alt="slider-1" />
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/slider-5.png" alt="slider-1" />
+                                <img src="/resources/images/slide4.jpg" alt="slider-1" />
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="img-slide">
-                                <img src="/resources/images/explore-traval-2.png" alt="slider-1" />
+                                <img src="/resources/images/slide5.jpg" alt="slider-1" />
                             </div>
                         </div>
-                        
-
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slide6.jpg" alt="slider-1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slide7.jpg" alt="slider-1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slide8.jpg" alt="slider-1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slide9.jpg" alt="slider-1" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img-slide">
+                                <img src="/resources/images/slide10.jpg" alt="slider-1" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -430,11 +453,6 @@
             </div>
         </section>
 
-        
-       
-
-         
-
         <section class="photo-grid-wrapper">
             <div class="container">
                 <!-- Photo Grid -->
@@ -513,8 +531,12 @@
             <div class="footer-link">
                 <div class="visit-link">
                     Visit :
-                    <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a>
-                    <a href="http://www.woodenresortnubra.com " target="_blank">www.woodenresortnubra.com</a>
+                    <a href="http://www.woodenresortnubra.com" target="_blank">www.woodenresortnubra.com</a>                
+                    <a href="http://www.royalsheldanladakh.com" target="_blank">www.royalsheldanladakh.com</a>
+                    <a href="http://www.ladakhbikes.com" target="_blank">www.ladakhbikes.com</a>
+                    <a href="http://www.hoteltheleh.com" target="_blank">www.hoteltheleh.com</a>
+
+                    <!-- <a href="http://www.ladakhmountaintours.com " target="_blank">www.ladakhmountaintours.com</a> -->
                     <!-- <a href="http://www.hotelladakhmarvel.com " target="_blank">www.hotelladakhmarvel.com</a> -->
                 </div>
                 <div class="social-media">
@@ -524,10 +546,10 @@
                             <a href="https://www.facebook.com/ladakhmountaintours/?__tn__=%2Cd%2CP-R&amp;eid=ARAD5iKwKuBZhpt9VKxYPkwmYVwCH4fMNWBKMoYPlc-Qk12YkwJIZc_IggacquIXiIZwTkNue7Nw9ECT"
                                 title="Facebook" target="_blank"><i class="fc-facebook"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://wa.me/91941998314" title="what's up" target="_blank"><img
                                     src="/resources/images/common/icons/whatup-icon.svg" alt="What's up icon" /></a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                         <a href="https://www.linkedin.com/company/ladakhmountaintours/" title="Linkedin"
                             target="_blank"><i class="fc-linkedin"></i></a>

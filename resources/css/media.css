@@ -80,7 +80,7 @@
     .footer-link{display:flex;margin-bottom: 10px;}
     .enquire-more .light-text{margin-bottom:0;}
     .visit-link{padding-bottom: 10px;display:block;}
-    .page-level-footer{    bottom: -65px;}
+    .page-level-footer{bottom: -65px;}
 }
 
 @media screen and (max-width: 599px) {
