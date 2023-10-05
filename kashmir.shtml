@@ -592,7 +592,7 @@
             slidesPerView: 4,
             loop: true,
             autoplay:true,
-            autoplayTimeout:2000,
+            speed:500,
             centeredSlides: true,
             effect: 'coverflow',
             noSwiping: true,
